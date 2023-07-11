@@ -27,7 +27,7 @@ const Header = () => {
               className={styles.icon}
             />
           </Link>
-          <Link href={"/"}>
+          {/* <Link href={"/"}>
             <ImageLayout
               src={"/icons/facebook.svg"}
               alt={"facebook_logo"}
@@ -44,7 +44,7 @@ const Header = () => {
               height={20}
               className={styles.icon}
             />
-          </Link>
+          </Link> */}
           <Link href={"/"}>
             <ImageLayout
               src={"/icons/youtube.svg"}
