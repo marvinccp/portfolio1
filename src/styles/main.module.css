@@ -5,7 +5,7 @@
     display: flex;
     flex-direction: column;
     justify-content: center;
-    background-color: rgb(49, 49, 49);
+    background-color: rgb(26, 25, 25);
     align-items: center;
 }
 
@@ -54,6 +54,7 @@
 .menu a:hover {
     color: rgb(54, 166, 241);
     width: 180px;
+   
 }
 
 /* .effect {
@@ -117,3 +118,27 @@
     }
 
 }
+
+@media (orientation:landscape) {
+    /* Estilos para la vista vertical */
+
+    .text {
+        width: 60%;
+        margin: 0 auto;
+        text-align: unset;
+        font-size: 1rem;
+    }
+
+    .container {
+        height: auto;
+       
+    }
+     .main {
+         flex-direction: row;
+         width: 80%;
+     }
+       .avatar {
+           margin: 30px 0 0 0;
+       }
+}
+
