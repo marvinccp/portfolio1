@@ -1,32 +1,35 @@
 .menu_container {
     height: 10vh;
     width: 100%;
-    background-color: rgb(30, 28, 28);
+    background-color: rgb(234, 234, 234);
     display: flex;
     justify-content: center;
     align-items: center;
+    position: fixed;
+    top: 0;
 }
 
 .container {
     display: flex;
     width: 100%;
-    justify-content: space-around;
-    align-items: center;
-    padding: 0 0 0 0;
-}
-
-.menu {
-    display: flex;
-    width: 80%;
     justify-content: flex-end;
-    gap: 20px;
-    height: 25px;
+    align-items: center;
+    padding:  0 30px 0 0;
 }
 
-.icon{
-   filter: invert(80%);
 
+.icon {
+    filter: invert(77%) sepia(7%) saturate(6%) hue-rotate(314deg) brightness(87%) contrast(84%);
+    margin: 6px;
 }
-.icon:hover{
-    filter: invert(80%) sepia(46%) saturate(7157%) hue-rotate(178deg) brightness(98%) contrast(93%);
+.icon:hover {
+    filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%);
+}
+
+@media(min-width:768px){
+    .container {
+       
+        padding: 0 60px 0 0;
+    }
+
 }

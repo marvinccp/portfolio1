@@ -5,8 +5,9 @@ import Main from "@/components/Main";
 
 export default function Home() {
   return (
-    <>
+    <section className={styles.container}>
       <Main />
-    </>
+      
+    </section>
   );
 }

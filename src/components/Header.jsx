@@ -7,13 +7,12 @@ const Header = () => {
   return (
     <nav className={styles.menu_container}>
       <section className={styles.container}>
-        <div className={styles.menu}>
           <Link href={"/"}>
             <ImageLayout
               src={"/icons/whatsapp.svg"}
               alt={"whatsapp_logo"}
-              width={20}
-              height={20}
+              width={27}
+              height={27}
               className={styles.icon}
             />
           </Link>
@@ -22,8 +21,8 @@ const Header = () => {
             <ImageLayout
               src={"/icons/github.svg"}
               alt={"github_logo"}
-              width={20}
-              height={20}
+              width={27}
+              height={27}
               className={styles.icon}
             />
           </Link>
@@ -49,12 +48,11 @@ const Header = () => {
             <ImageLayout
               src={"/icons/youtube.svg"}
               alt={"youtube_logo"}
-              width={21}
-              height={21}
+              width={26}
+              height={26}
               className={styles.icon}
             />
           </Link>
-        </div>
       </section>
     </nav>
   );

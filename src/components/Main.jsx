@@ -1,25 +1,21 @@
 import React from "react";
 import styles from "../styles/main.module.css";
-import ImageLayout from "../components/Image";
 import Link from "next/link";
 const Main = () => {
   return (
     <section className={styles.container}>
-      <ImageLayout
-        src="/images/myAvatar.png"
-        width={120}
-        height={120}
-        alt="avatar_logo_main"
-        className={styles.avatar}
-      />
+      <video
+        src="/videos/fondo2short.mp4"
+        loop
+        autoPlay
+        muted
+        type="video/mp4"
+      ></video>
       <main className={styles.main}>
         <div className={styles.text}>
-          <p>
-            ¡Hola! Me llamo Marvin Berrio, soy
-            comunicador audiovisual y me preparo desde hace 2 años como desarrollador web. Mi pasión abarca la
-            creatividad y la tecnología.  Te invito a explorar mi portafolio para descubrir más
-            sobre mi trabajo. Si necesitas más información, no dudes en contactarme.
-          </p>
+          <h1 className={styles.hola}>Hola</h1>
+          <h1 className={styles.soy}>Soy</h1>
+          <h1 className={styles.marvin}>Marvin</h1>
         </div>
         <div className={styles.menu}>
           <Link href={"/about"}>
