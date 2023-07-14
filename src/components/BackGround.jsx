@@ -11,9 +11,11 @@ const BackGround = () => {
     console.log(container);
   };
 
+  
+
   return (
     <Particles
-    loaded={particlesLoaded}
+      loaded={particlesLoaded}
       init={particlesInit}
       options={{
         background: {

@@ -6,6 +6,9 @@ import ImageLayout from "./Image";
 const Header = () => {
   return (
     <nav className={styles.menu_container}>
+      <Link href={"/"}>
+      <h5 className={styles.logo}>m</h5>
+      </Link>
       <section className={styles.container}>
           <Link href={"/"}>
             <ImageLayout

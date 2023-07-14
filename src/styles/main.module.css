@@ -6,7 +6,7 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    margin: 10vh 0 0 0;
+    margin: 0 0 0 0;
 }
 
 .main {
@@ -14,17 +14,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    gap: 80px;
-    height: 90%;
-    width: 90%;
+    gap: 50px;
+    /* height: 50%;
+    width: 90%; */
     color: aliceblue;
-    /* background-color: rgba(222, 101, 214, 0.671); */
 }
 
-.avatar {
+/* .avatar {
     border-radius: 50%;
     margin: 40px 0 30px 0;
-}
+} */
 
 .text {
     display: flex;
@@ -32,13 +31,11 @@
     justify-content: center;
     align-items: center;
     width: 95%;
-    height: 40vh;
     margin: 0 auto;
     line-height: 4.5rem;
-
+        cursor: pointer;
 
 }
-
 
 .text h1 {
     width: 300px;
@@ -53,11 +50,18 @@
     width: 40%;
     margin: 0 auto;
     font-size: 1.2rem;
+
+    animation: moveStart2 1s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-delay: 1.4s;
+    animation-fill-mode: backwards;
 }
 
 .menu a {
     text-decoration: none;
-    color: rgb(154, 154, 154);
+    color: rgb(152, 152, 152);
     /* transition: color 10s ease; */
     width: 180px;
     transition: width .5s ease;
@@ -110,6 +114,8 @@
     .menu {
         align-items: center;
         font-size: 1.4rem;
+            border-left: 2px solid rgba(14, 14, 14, 0.355);
+
     }
 
     .avatar {
@@ -140,13 +146,11 @@
 
 .hola {
     /* font-size: 7rem; */
-
-
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .4s;
+    animation-delay: .8s;
     animation-fill-mode: backwards;
     color: rgb(60, 60, 60);
     text-shadow: 1px 1px rgb(154, 154, 154);
@@ -161,7 +165,7 @@
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .6s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
 
 }
@@ -173,7 +177,7 @@
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .8s;
+    animation-delay: 1.2s;
     animation-fill-mode: backwards;
     color: rgb(60, 60, 60);
 }
@@ -182,7 +186,7 @@
     display: flex;
     align-items: center;
     line-height: 1.5rem;
-    width: 300px;
+    width: 290px;
     margin: 12px 0;
     flex-direction: column;
     /* background-color: aqua; */
@@ -195,14 +199,9 @@
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: 1.1s;
+    animation-delay: 1.3s;
     animation-fill-mode: backwards;
 
-
-    cursor: pointer;
-    position: relative;
-    transform: rotate();
-    transition: transform .1s ease-in-out;
 
 }
 
@@ -220,10 +219,10 @@
 
 .container video {
     width: 100%;
-    height: 100vh;
+    height: 85vh;
     object-fit: cover;
     position: absolute;
     z-index: -1;
-    top: 0;
+    top: 10vh;
     left: 0;
 }
