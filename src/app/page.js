@@ -4,14 +4,13 @@ import Image from "next/image";
 import Link from "next/link";
 import Main from "@/components/Main";
 import BackGround from "@/components/BackGround";
-import Footer from "@/components/Footer";
 
 export default function Home() {
   return (
     <>
       
       <Main />
-      <Footer />
+      
     </>
   );
 }
