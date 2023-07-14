@@ -61,17 +61,17 @@
 
 .menu a {
     text-decoration: none;
-    color: rgb(152, 152, 152);
+    color: rgb(98, 98, 98);
     /* transition: color 10s ease; */
     width: 180px;
     transition: width .5s ease;
-    text-indent: 10px;
-
+    font-weight: 600;
+    font-size: 1.6rem;
 
 }
 
 .menu a:hover {
-    color: rgb(54, 54, 54);
+    color: rgb(23, 23, 23);
     width: 150px;
 
 }
@@ -93,8 +93,6 @@
     color: rgb(219, 219, 219);
 
 }  */
-
-
 
 
 @media(min-width:768px) {
@@ -179,7 +177,7 @@
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: 1.2s;
     animation-fill-mode: backwards;
-    color: rgb(60, 60, 60);
+    color: rgb(0, 0, 0);
 }
 
 .profesion {

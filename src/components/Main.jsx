@@ -61,15 +61,15 @@ const Main = () => {
         </div>
         <div className={styles.menu}>
           <Link href={"/about"}>
-            <h2> About</h2>
+            <p>ABOUT</p>
           </Link>
           <Link href={"/projects"}>
             <div className={styles.effect}>
-              <h2>Projects</h2>
+              <p>PROJECTS</p>
             </div>
           </Link>
           <Link href={"/contact"}>
-            <h2>Contact</h2>
+            <p>CONTACT</p>
           </Link>
         </div>
       </main>

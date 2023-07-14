@@ -1,15 +1,23 @@
 .container {
-    background-color: rgb(49, 49, 49);
+    background: rgba(0, 0, 0, 0.766);
+
     height: 85vh;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    color: rgb(114, 114, 114);
+    color: rgb(214, 214, 214);
+
 
 }
 
+.text {
+    width: 85%;
+    text-align: justify;
+    color: rgb(176, 176, 176);
+    font-weight: 400;
+}
 
 .main {
     display: flex;
@@ -21,5 +29,38 @@
     width: 90%;
     margin: 20px auto;
     color: aliceblue;
+
+}
+
+.image {
+
+    border-radius: 50%;
+}
+
+@media(min-width:768px) {
+    .container {
+        flex-direction: row;
+    }
+
+    .main {
+        flex-direction: row;
+    }
+
+    .text {
+        width: 45%;
+    }
+
+
+}
+
+.container video {
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+    position: absolute;
+    z-index: -1;
+    top: 10vh;
+    left: 0;
+        filter: grayscale(100%);
 
 }
