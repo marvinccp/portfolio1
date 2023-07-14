@@ -22,20 +22,20 @@
     border-radius: 50%;
     margin: 0 0 0 30px;
 
-    animation: logoInfinite 5s infinite;
+    /* animation: logoInfinite 5s infinite; */
 
 }
 
-@keyframes logoInfinite {
+/* @keyframes logoInfinite {
     100% {
         transform: rotateY(360deg);
         
     }
 
-    /* 100% {
+    100% {
         transform: translateY(0%);
-    } */
-}
+    }
+} */
 
 .container {
     display: flex;
