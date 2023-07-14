@@ -1,7 +1,12 @@
+
 import React from "react";
 import styles from "../styles/main.module.css";
 import Link from "next/link";
 const Main = () => {
+
+
+
+
   return (
     <section className={styles.container}>
       <video
@@ -13,9 +18,12 @@ const Main = () => {
       ></video>
       <main className={styles.main}>
         <div className={styles.text}>
-          <h1 className={styles.hola}>Hola</h1>
+          <h1 className={styles.hola}>Hola,</h1>
           <h1 className={styles.soy}>Soy</h1>
           <h1 className={styles.marvin}>Marvin</h1>
+          <div className={styles.profesion}>
+            <h2>Comunicador Audiovisual & Desarrollador Web</h2>
+          </div>
         </div>
         <div className={styles.menu}>
           <Link href={"/about"}>

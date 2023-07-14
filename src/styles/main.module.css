@@ -1,7 +1,7 @@
 .container {
     height: 85vh;
     width: 100%;
-    background-color: rgba(242, 242, 242, 0);
+    /* background-color: rgba(241, 241, 241, 0); */
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -31,10 +31,14 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 40%;
+    width: 95%;
+    height: 40vh;
     margin: 0 auto;
     line-height: 4.5rem;
+
+
 }
+
 
 .text h1 {
     width: 300px;
@@ -75,16 +79,16 @@
     width: 180px;
     height: 50px;
     transition: background-position .4s ease;
-    background: linear-gradient(to right, rgb(49, 49, 49) 50%, rgb(227, 227, 227) 50%) no-repeat left / 200%;
+    background: linear-gradient(to right, transparent 50%, rgb(82, 82, 82) 50%) no-repeat left / 200%;
 
 }
 
 .effect:hover {
 
     background-position: right;
-    color: rgb(49, 49, 49);
+    color: rgb(219, 219, 219);
 
-} */
+}  */
 
 
 
@@ -136,43 +140,70 @@
 
 .hola {
     /* font-size: 7rem; */
-    
-    
+
+
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .4s;
     animation-fill-mode: backwards;
-    color: rgb(28, 28, 28);
+    color: rgb(60, 60, 60);
     text-shadow: 1px 1px rgb(154, 154, 154);
 
 }
 
 .soy {
- color: rgb(28, 28, 28);
- text-shadow: 1px 1px rgb(154, 154, 154);
+    color: rgb(60, 60, 60);
+    text-shadow: 1px 1px rgb(154, 154, 154);
 
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .8s;
+    animation-delay: .6s;
     animation-fill-mode: backwards;
 
 }
 
 .marvin {
 
+    font-size: 5.8rem;
+    animation: moveStart2 1s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-delay: .8s;
+    animation-fill-mode: backwards;
+    color: rgb(60, 60, 60);
+}
+
+.profesion {
+    display: flex;
+    align-items: center;
+    line-height: 1.5rem;
+    width: 300px;
+    margin: 12px 0;
+    flex-direction: column;
+    /* background-color: aqua; */
+    font-size: 1.1rem;
+    line-height: 1.7rem;
+    color: rgb(119, 119, 119);
+
 
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: 1.2s;
+    animation-delay: 1.1s;
     animation-fill-mode: backwards;
- color: rgb(28, 28, 28);
- text-shadow: 1px 1px rgb(154, 154, 154);
+
+
+    cursor: pointer;
+    position: relative;
+    transform: rotate();
+    transition: transform .1s ease-in-out;
+
 }
 
 @keyframes moveStart2 {
