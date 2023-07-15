@@ -50,14 +50,15 @@
     display: flex;
     margin: 0 0 30px 0;
     font-size: 1.1rem;
-    font-weight: 600
+    font-weight: 600;
+    transform: skewX(-10deg);
 }
 
 .container h1{
     color: black;
     font-weight: 200;
     font-size: 4rem;
-    transform: skew(-15deg);
+    transform: skewX(-10deg);
 }
 
 .menu_inline a{
@@ -80,7 +81,7 @@ font-size: .8rem;
      animation-play-state: running;
      animation-iteration-count: 1;
      animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-     animation-delay: .7s;
+     animation-delay: .9s;
      animation-fill-mode: backwards;
 }
 .line{

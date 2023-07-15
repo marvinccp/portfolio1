@@ -1,24 +1,35 @@
 .container{
-    background-color: rgb(164, 164, 164);
-    height: 85vh;
+    /* background-color: rgb(255, 255, 255); */
+    height: auto;
     width: 100%;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-color: rgb(114, 114, 114);
+color: rgb(50, 50, 50);
 
 }
 
+.card{
 
-.main {
+    height: 300px;
+    width: 300px;
     display: flex;
+    justify-content: flex-start;
+    /* align-items: center; */
+    flex-direction: column;
+    gap: 20px;
+    margin: 30px;
+}
+.main {
+    display: grid;
+    grid-template-columns: repeat(autofit, 1fr 300px);
     justify-content: center;
     align-items: center;
     flex-direction: column;
     gap: 60px;
-    height: 60%;
+    height: auto;
     width: 90%;
     margin: 20px auto;
-    color: aliceblue;
+    color: rgb(90, 90, 90);
 }

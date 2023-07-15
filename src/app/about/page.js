@@ -14,7 +14,7 @@ const About = () => {
         <Link href={"/contact"}>
         <p>contact</p>
         </Link>
-        <Link href={"/contact"}>
+        <Link href={"/projects"}>
         <p>projects</p>
         </Link>
       </div>
