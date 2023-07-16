@@ -53,7 +53,7 @@ const dataProjects = [
 const Projects = () => {
   return (
     <section className={styles.container}>
-      <h1>Projects</h1>
+      <h1>Aquí 7 Projects</h1>
       <main className={styles.main}>
         {
           dataProjects.map((project) => (
