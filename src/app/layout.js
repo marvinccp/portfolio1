@@ -29,7 +29,8 @@ export const metadata = {
   description: "Welcome to my personal website",
 };
 
-export default function RootLayout({ children }) {
+export default function RootLayout(props) {
+  console.log(props)
   return (
     <html
       lang="en"
@@ -37,8 +38,9 @@ export default function RootLayout({ children }) {
       `}
     >
       <body>
+        {props.modal}
         <Header />
-        {children}
+        {props.children}
         <Footer />
       </body>
     </html>
