@@ -1,19 +1,48 @@
-.overlay{
+.overlay {
 
+height: 100%;
     width: 100%;
-    height: 85vh;
-    background-color: rgba(90, 90, 90, 0.755);
-    position: absolute;
+    background-color: rgba(244, 39, 39, 0.479);
+    position: fixed;
     z-index: 10;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.wrapper {
 
-    width: 30%;
-    height: 30vh;
-    background-color: rgb(152, 185, 71);
+
+}
+
+.wrapper {
+/* background-color: aqua; */
     position: absolute;
-    z-index: 10;
+    top: 65%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 90%;
+    height: 90vh;
+
+}
+
+@media screen and (min-width: 640px) {
+    .wrapper {
+        width: 83.3333%;
+        /* Equivale a w-10/12 */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 66.6667%;
+        /* Equivale a w-8/12 */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 50%;
+        /* Equivale a lg:w-1/2 */
+    }
+}
+
+/* Estilos comunes a todos los tamaños de pantalla */
+.wrapper {
+    padding: 24px;
+    /* Equivale a p-6 */
 }
