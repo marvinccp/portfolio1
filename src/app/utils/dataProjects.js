@@ -79,7 +79,23 @@ export const dataProjects = [
       { tec: "CSS", image: "/icons/css.png" },
       { tec: "Html", image: "/icons/html.png" },
     ],
-    tags: ["Javascript", 'HTML5', "CSS", "Web Developer"],
+    tags: ["Javascript", "HTML5", "CSS", "Web Developer"],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
+  {
+    id: "6",
+    title: "Mercadoña",
+    description:
+      "Este proyecto es un demo de un programa de un supermercado que maneja el inventario y permite realizar modificaciones o eliminación de datos",
+    link: "https://soul.marvinberrio.com/",
+    github: "https://github.com/marvinccp/merca_prototipo",
+    image: "/projects_images/mercadora.png",
+    tec: [
+      { tec: "Postgres", image: "/icons/postgres.png" },
+      { tec: "Python", image: "/icons/python.png" },
+      { tec: "Django", image: "/icons/django.png" },
+    ],
+    tags: ["Django", "Python", "Postgres", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
 ];

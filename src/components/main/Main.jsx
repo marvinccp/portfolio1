@@ -2,9 +2,9 @@
 import React, { useState } from "react";
 import { useSpring, animated } from "react-spring";
 import { useGesture } from "react-use-gesture";
-import styles from "../styles/main.module.css";
+import styles from "./main.module.css";
 import Link from "next/link";
-import BackGround from "./BackGround";
+import BackGround from "../BackGround";
 
 const Main = () => {
   const [rotation, setRotation] = useState(0);

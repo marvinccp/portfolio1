@@ -1,6 +1,6 @@
 import React from "react";
-import Modal from "@/components/modal/Modal";
-import Content from "@/components/Content";
+import Modal from "../../../../components/modal/Modal.jsx";
+import Content from "../../../../components/content/Content.jsx";
 import { dataProjects } from "@/app/utils/dataProjects";
 
 

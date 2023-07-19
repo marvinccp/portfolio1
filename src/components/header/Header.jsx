@@ -1,7 +1,7 @@
 import Link from "next/link";
 import React from "react";
-import styles from "../styles/navigation.module.css";
-import ImageLayout from "./Image";
+import styles from "./header.module.css";
+import ImageLayout from "../Image";
 
 const Header = () => {
   return (

@@ -1,5 +1,5 @@
 import React from "react";
-import styles from "../../styles/projects.module.css";
+import styles from "./projects.module.css";
 import ImageLayout from "../../components/Image";
 import Link from "next/link";
 import { dataProjects } from "../utils/dataProjects";

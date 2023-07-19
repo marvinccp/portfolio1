@@ -1,7 +1,7 @@
 "use client";
 import React from "react";
-import ImageLayout from "./Image";
-import styles from "../styles/content.module.css";
+import ImageLayout from "../Image";
+import styles from "./content.module.css";
 import { useRouter } from "next/navigation";
 import Link from "next/link";
 

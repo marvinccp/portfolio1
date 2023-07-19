@@ -1,7 +1,7 @@
 'use client'
 import { useCallback, useRef, useEffect } from "react";
 import { useRouter } from "next/navigation";
-import styles from "../../styles/modal.module.css";
+import styles from "./modal.module.css";
 
 
 const Modal = ({ children }) => {
