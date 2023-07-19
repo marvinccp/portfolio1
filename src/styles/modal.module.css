@@ -2,7 +2,7 @@
 
     height: 100%;
     width: 100%;
-    background-color: rgba(26, 26, 26, 0.77);
+    background-color: rgba(35, 35, 35, 0.734);
     position: fixed;
     z-index: 10;
 
@@ -12,10 +12,36 @@
 .wrapper {
 /* background-color: aqua; */
     position: absolute;
-    top: 40%;
+    top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    width: 425px;
-    height: 80vh;
+    width: 100%;
 
+}
+
+@media screen and (min-width: 640px) {
+    .wrapper {
+        width: 70%;
+        /* Equivale a w-10/12 */
+    }
+}
+
+@media screen and (min-width: 768px) {
+    .wrapper {
+        width: 60%;
+        /* Equivale a w-8/12 */
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .wrapper {
+        width: 40%;
+        /* Equivale a lg:w-1/2 */
+    }
+}
+
+/* Estilos comunes a todos los tamaños de pantalla */
+.wrapper {
+    padding: 24px;
+    /* Equivale a p-6 */
 }

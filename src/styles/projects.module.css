@@ -8,6 +8,8 @@
     color: rgb(50, 50, 50);
     padding: 50px 0 0 0;
     height: 85vh;
+    max-width: 1000px;
+    margin: 0 auto;
 }
 
 .container h1{
