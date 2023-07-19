@@ -2,46 +2,19 @@ export const dataProjects = [
   {
     id: "1",
     title: "Master Question",
-    description: "MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test. En proyecto he consgtruido el sistema de creación y modificación de preguntas, ademas de la conexión a su bse de datos",
+    description:
+      "MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test. En proyecto he consgtruido el sistema de creación y modificación de preguntas, ademas de la conexión a su bse de datos",
     link: "https://google.com",
-    github: "https://github.com",
+    github: "https://github.com/marvinccp/masterqgame",
     image: "/projects_images/master_question.png",
     page_image: "/projects_images/master_question.png",
-    tec:[
-      {tec:'Javascript',image:'/icons/js.png'},
-      {tec:'CSS',image:'/icons/css.png'},
+    tec: [
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "CSS", image: "/icons/css.png" },
     ],
-    tags: ["React", "Javascript", "CSS", 'Game', 'Node', 'Web Developer'],
-    youtube: "https://www.youtube.com",
+    tags: ["React", "Javascript", "CSS", "Game", "Node", "Web Developer"],
+    youtube:
+      "https://www.youtube.com/watch?v=sh-P1FFd7oA&list=PL0_LqhiRYs8Eau8DxJLy4xF1LzEoK3twE",
   },
-  {
-    id: "2",
-    title: "Project 1",
-    description: "lorem ipsum nfgdfg ethewtru wegasgesh st eth  eth ",
-    link: "https://google.com",
-    github: "https://github.com",
-    image: "https://picsum.photos/200/301",
-    tags: ["react", "javascript", "css"],
-    youtube: "https://www.youtube.com",
-  },
-  {
-    id: "3",
-    title: "Project 1",
-    description: "lorem ipsum nfgdfg ethewtru wegasgesh st eth  eth ",
-    link: "https://google.com",
-    github: "https://github.com",
-    image: "https://picsum.photos/202/300",
-    tags: ["react", "javascript", "css"],
-    youtube: "https://www.youtube.com",
-  },
-  {
-    id: "4",
-    title: "Project 1",
-    description: "lorem ipsum nfgdfg ethewtru wegasgesh st eth  eth ",
-    link: "https://google.com",
-    github: "https://github.com",
-    image: "https://picsum.photos/205/300",
-    tags: ["react", "javascript", "css"],
-    youtube: "https://www.youtube.com",
-  },
+  
 ];

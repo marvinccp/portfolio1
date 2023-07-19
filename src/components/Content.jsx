@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import Link from "next/link";
 
 const Content = ({ data }) => {
-  const { id, image, title, description, tec, tags } = data;
+  const { id, image, title, description, tec, tags, github, youtube, link } = data;
   const router = useRouter();
 
   return (
@@ -38,7 +38,7 @@ const Content = ({ data }) => {
         <div className={styles.links}>
           <h3>Links</h3>
           <section className={styles.demo_links}>
-            <Link href={"/"}>
+            <Link href={github}>
               <ImageLayout
                 src={"/icons/github.svg"}
                 alt={"github_logo"}
@@ -47,7 +47,7 @@ const Content = ({ data }) => {
                 className={styles.icon}
               />
             </Link>
-            <Link href={"/"}>
+            <Link href={youtube}>
               <ImageLayout
                 src={"/icons/youtube.svg"}
                 alt={"youtube_logo"}
@@ -62,16 +62,22 @@ const Content = ({ data }) => {
       <footer>
         <h3>Tags</h3>
         <h5>{tags.join("    ,    ")}</h5>
+        <Link href={link}>
+          <div className={styles.button_container}>
+
         <button>
           Open Project
+
           <ImageLayout
             src={"/icons/go.png"}
             alt={"youtube_logo"}
             width={25}
             height={25}
             className={styles.icon}
-          />
+            />
         </button>
+            </div>
+            </Link>
       </footer>
     </section>
   );
