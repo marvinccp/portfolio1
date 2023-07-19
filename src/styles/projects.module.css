@@ -6,8 +6,7 @@
     justify-content: center;
     align-items: center;
     color: rgb(50, 50, 50);
-    padding: 50px 0 0 0;
-    height: 85vh;
+    height: auto;
     max-width: 1000px;
     margin: 0 auto;
 }
@@ -19,12 +18,16 @@
 .card {
 
     width: 200px;
-    height: 63px;
+    height: 93px;
     display: flex;
     justify-content: center;
     /* align-items: center; */
 ;
     
+}
+.container .title {
+margin: 50px  0 30px 0;
+
 }
 
 .main {
@@ -35,7 +38,7 @@
     width: 95%;
     /* background-color: aqua; */
     margin: 30px auto;
-gap: 30px;
+gap: 45px;
 }
 
 .main a {
@@ -64,13 +67,28 @@ gap: 30px;
     font-size: .8rem;
 }
 
-@media(min-width:632px) {
+@media(min-width:468px) {
     .main {
         width: 70%;
-        justify-content: space-between;
+
+    }
+    .container{
+        height: auto;
+    
+    }
+    
+}
+@media(min-width:635px) {
+    .main {
+        width: 70%;
+        justify-content: space-around;
     }
     .container{
         height: 85vh;
+        
+    }
+    .container .title{
+        margin: 0 0 60px 0;
         
     }
 }
