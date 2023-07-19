@@ -70,7 +70,7 @@ export const dataProjects = [
     id: "5",
     title: "SOUL",
     description:
-      "Este proyecto es un demo básico de un sitio web de un restaurante de comidas rapidas. El objetivo es crear la base de datos y un sistema de pedidos online para complementar este proyecto",
+      "Este prototipo se convertirá en una tienda online de ropa. este es uno de nuestro proyectos en familia a mediano plazo",
     link: "https://soul.marvinberrio.com/",
     github: "https://github.com/marvinccp/soul/tree/master/staticPage",
     image: "/projects_images/soul.png",

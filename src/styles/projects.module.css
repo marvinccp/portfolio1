@@ -60,6 +60,12 @@ gap: 45px;
     margin: 10px 0 0 10px;
 
 }
+.container h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 4rem;
+    transform: skewX(-10deg);
+}
 
 .description {
 

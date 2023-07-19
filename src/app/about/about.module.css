@@ -61,11 +61,7 @@
     transform: skewX(-10deg);
 }
 
-.menu_inline a{
-text-decoration: none;
-margin: 0 5px;
-font-size: .8rem;
-}
+
 
 .container p{
 
@@ -83,6 +79,11 @@ font-size: .8rem;
      animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
      animation-delay: .9s;
      animation-fill-mode: backwards;
+}
+.menu_inline a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: .8rem;
 }
 .line{
     background-color: black;

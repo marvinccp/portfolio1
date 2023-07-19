@@ -8,7 +8,7 @@ const ListProjects = () => {
   return (
     <section className={styles.container}>
       <div className={styles.title}>
-        <h3>Projects</h3>
+        <h1>Projects</h1>
       </div>
       <main className={styles.main}>
         {dataProjects.map(({ id, image, title }) => (
