@@ -3,17 +3,26 @@
     height: 90vh;
     width: 90%;
     background: linear-gradient(rgb(234, 234, 234), rgb(200, 200, 200), rgba(231, 231, 231, 0.885));
-    padding: 15px 15px;
+    padding: 10px 10px;
     border-radius: 5px;
     color: rgb(50, 50, 50);
     margin: 0 auto;
     justify-content: center;
+
+    background-color: #f6f6f6;
+    opacity: 1;
+    background-size: 11px 11px;
+    background-image: repeating-linear-gradient(45deg, #ececec 0, #ebebeb 1.1px, #f6f6f6 0, #f6f6f6 50%);
+
 }
 
 .main{
     width: 90%;
     height: 70vh;
     margin: 0 auto;
+
+
+
 }
 
 /* back */

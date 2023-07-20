@@ -86,7 +86,7 @@ export const dataProjects = [
     id: "6",
     title: "Mercadoña",
     description:
-      "Este proyecto es un demo de un programa de un supermercado que maneja el inventario y permite realizar modificaciones o eliminación de datos",
+      "Este proyecto es un demo de un programa de un supermercado para control de inventario",
     link: "https://github.com/marvinccp/merca_prototipo",
     github: "https://github.com/marvinccp/merca_prototipo",
     image: "/projects_images/mercadora.png",
