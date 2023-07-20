@@ -30,9 +30,10 @@ const Content = ({ data }) => {
               <ImageLayout
                 key={tec}
                 src={image}
-                width={30}
-                height={30}
+                width={40}
+                height={40}
                 alt={tec}
+                className={styles.tec}
               />
             ))}
           </section>

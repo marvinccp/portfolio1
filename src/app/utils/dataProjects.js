@@ -3,7 +3,7 @@ export const dataProjects = [
     id: "1",
     title: "Master Question",
     description:
-    'MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test',
+      "MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test",
     link: "https://masterqgame.vercel.app/?vercelToolbarCode=q5J1LprEQR4zen1",
     github: "https://github.com/marvinccp/masterqgame",
     image: "/projects_images/master_question.png",
@@ -87,7 +87,7 @@ export const dataProjects = [
     title: "Mercadoña",
     description:
       "Este proyecto es un demo de un programa de un supermercado que maneja el inventario y permite realizar modificaciones o eliminación de datos",
-    link: "https://soul.marvinberrio.com/",
+    link: "https://github.com/marvinccp/merca_prototipo",
     github: "https://github.com/marvinccp/merca_prototipo",
     image: "/projects_images/mercadora.png",
     tec: [
@@ -96,6 +96,24 @@ export const dataProjects = [
       { tec: "Django", image: "/icons/django.png" },
     ],
     tags: ["Django", "Python", "Postgres", "Web Developer"],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
+  {
+    id: "7",
+    title: "Marvin Berrio",
+    description:
+      "Esta es la primera versión de mi portafolio. minimalista y casi en obra gris, sencillo",
+    link: "/",
+    github: "https://github.com/marvinccp/portfolio1",
+    image: "/projects_images/marvin.png",
+    tec: [
+      { tec: "Next Js", image: "/icons/next.png" },
+      { tec: "HTML5", image: "/icons/html.png" },
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "CSS", image: "/icons/css.png" },
+      { tec: "React Js", image: "/icons/react.png" },
+    ],
+    tags: ["React", "Javascript", "CSS", "Next", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
 ];
