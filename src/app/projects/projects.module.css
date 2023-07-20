@@ -19,8 +19,19 @@
     background-repeat: repeat;
 }
 
-.container h1{
+
+.container h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 4rem;
+    transform: skewX(-12deg);
+}
+.container h2{
     transform: skewx(-12deg);
+    color: black;
+    font-weight: 200;
+    font-size: 3rem;
+    margin: 60px 0 40px 0 ;
 }
 
 .card {
@@ -48,7 +59,7 @@ margin: 30px 0 30px 0;
     /* background-color: aqua; */
     margin: 0 auto;
 gap: 20px;
-height: 100vh;
+height: 60vh;
 }
 
 .main a {
@@ -69,12 +80,7 @@ height: 100vh;
     font-size: 1.1rem;
 
 }
-.container h1 {
-    color: black;
-    font-weight: 200;
-    font-size: 4rem;
-    transform: skewX(-10deg);
-}
+
 
 .description {
 
@@ -110,11 +116,9 @@ height: 100vh;
     margin: 0 10px 0 0;
 }
 
-@media(min-width:490px){
-    .container{
-        height: 85vh;
-    }
+@media(min-width:768px){
+   
     .main{
-        height: 55vh;
+        height: 30vh;
     }
 }
