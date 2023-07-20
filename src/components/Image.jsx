@@ -9,6 +9,7 @@ const ImageLayout = ({ src, alt, width, height, className}) => {
   width={width} 
   height={height} 
   className={className}
+priority
   />
 }
 export default ImageLayout;

@@ -1,14 +1,19 @@
 .content {
-    display: flex;
-    flex-direction: column;
+    
     height: 90vh;
     width: 90%;
     background: linear-gradient(rgb(234, 234, 234), rgb(200, 200, 200), rgba(231, 231, 231, 0.885));
-    padding: 5px 20px;
+    padding: 15px 15px;
     border-radius: 5px;
     color: rgb(50, 50, 50);
     margin: 0 auto;
     justify-content: center;
+}
+
+.main{
+    width: 90%;
+    height: 72vh;
+    margin: 0 auto;
 }
 
 /* back */
@@ -17,7 +22,7 @@
     justify-content: space-between;
     padding: 0 5px;
     align-items: center;
-    margin: 0 0 25px 0;
+    margin: 2px 0 30px 0;
 }
 
 .back_container span {
@@ -43,10 +48,13 @@
 .content header {
 
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     flex-direction: column;
-    margin: 15px 0 0 0;
+    margin: 15px 0;
+}
+.image{
+    margin: 20px 0;
 }
 
 .text_container {
@@ -54,7 +62,7 @@
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
-    margin: 15px 0 0 0;
+    margin: 10px 0 0 0;
     width: 100%;
     gap: 10px;
 }
@@ -70,12 +78,12 @@
     margin: 25px 0 0 0;
     display: flex;
     flex-direction: column;
-    gap: 10px
+    gap: 10px;
 }
 
 .tec_container {
     display: flex;
-    gap: 10px
+    gap: 10px;
 }
 
 .links {
@@ -104,19 +112,23 @@
     color: grey;
 }
 
-.content footer button {
+.content  button {
     width: 60%;
     height: 40px;
     margin: 10px;
     border-radius: 5px;
     border: none;
-    background-color: rgb(150, 150, 150);
+    background-color: rgb(126, 126, 126);
     display: flex;
     justify-content: space-around;
     align-items: center;
     font-size: 1.1rem;
     color: rgb(218, 218, 218);
+    cursor: pointer;
 
+}
+.content  button:hover {
+    background-color: rgb(155, 155, 155)
 }
 
 .content a {
@@ -127,7 +139,7 @@
 .button_container {
     display: flex;
     justify-content: center;
-    margin: 10px 0;
+    width: 100%;
 }
 
 @media(min-width:768px) {
@@ -138,6 +150,9 @@
    .button_container {
        margin:30px 0 0 0;
    }
+   .content button{
+    width: 50%
+   };
 
     .back_container {
         margin: 0 0 20px 0;
