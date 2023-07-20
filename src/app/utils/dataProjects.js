@@ -3,7 +3,7 @@ export const dataProjects = [
     id: "1",
     title: "Master Question",
     description:
-      "MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test. En proyecto he consgtruido el sistema de creación y modificación de preguntas, ademas de la conexión a su bse de datos",
+    'MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test',
     link: "https://masterqgame.vercel.app/?vercelToolbarCode=q5J1LprEQR4zen1",
     github: "https://github.com/marvinccp/masterqgame",
     image: "/projects_images/master_question.png",
@@ -22,7 +22,7 @@ export const dataProjects = [
     id: "2",
     title: "YouTube Hub",
     description:
-      "Este proyecto utiliza la API de Youtube para obtener información de listas de mis listas reproducción de reproducción favoritas de mis canales. ",
+      "Este proyecto utiliza la API de Youtube para obtener información  mis listas  de reproducción favoritas.",
     link: "https://youtube-hub.vercel.app/",
     github: "https://github.com/marvinccp/youtubeHUB",
     image: "/projects_images/youtube_hub.png",
@@ -38,7 +38,7 @@ export const dataProjects = [
     id: "3",
     title: "21 Black Jack",
     description:
-      "Esta 'adaptación' del juego de black jack fue creado como ejericio de práctica. fue interesante implementar la lógica de este juego tomando como referencia el juego real",
+      "Este juego es una adaptación del tipico black jack. he simplicado la interface",
     link: "https://21game.vercel.app/",
     github: "https://github.com/marvinccp/21game",
     image: "/projects_images/21.png",
@@ -54,7 +54,7 @@ export const dataProjects = [
     id: "4",
     title: "Fast Dogs",
     description:
-      "Este proyecto es un demo básico de un sitio web de un restaurante de comidas rapidas. El objetivo es crear la base de datos y un sistema de pedidos online para complementar este proyecto",
+      "Este proyecto es un demo básico de un sitio web de un restaurante de comidas rapidas.",
     link: "https://fastdogs.vercel.app/",
     github: "https://github.com/marvinccp/fastdogs",
     image: "/projects_images/f_dogs.png",
