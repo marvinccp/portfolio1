@@ -1,28 +1,108 @@
-.container{
-    height: 85vh;
+.container {
+    padding: 30px 35px;
     width: 100%;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    color: rgb(114, 114, 114);
-
-    background-color: #ffffff;
+    color: rgb(50, 50, 50);
+    height: 85vh;
+    margin: 0 auto;
+    background-color: #e5e5f72d;
     opacity: 1;
-    background-image: linear-gradient(#ffffff 4px, transparent 4px),
-    linear-gradient(to right, #f0f0f0 1px, #ffffff 1px);
-    background-size: 80px 80px;
+    max-width: 1200px;
+    background-image: linear-gradient(135deg, #95959529 25%, transparent 25%),
+        linear-gradient(225deg, #95959523 25%, transparent 25%),
+        linear-gradient(45deg, #95959502 25%, transparent 25%),
+        linear-gradient(315deg, #9595950c 25%, #e5e5f708 25%);
+    background-position: 5px 0,
+        5px 0,
+        0 0,
+        0 0;
+    background-size: 10px 10px;
+    background-repeat: repeat;
+}
+
+.container h1 {
+    transform: skewx(-12deg);
 }
 
 
-.main {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-    gap: 60px;
-    height: 60%;
+.container .title {
     width: 90%;
-    margin: 20px auto;
-    color: aliceblue;
+    margin: 30px 0 30px 0;
+
+}
+
+.rrss {
+    display: flex;
+    width: 100%;
+    align-items: center;
+    padding: 0 30px 0 0;
+}
+
+
+.icon {
+    filter: invert(77%) sepia(7%) saturate(6%) hue-rotate(314deg) brightness(87%) contrast(84%);
+    margin: 6px;
+}
+
+.icon:hover {
+    filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%);
+}
+
+
+
+.subtitle{
+    margin: 20px 0;
+}
+
+.title {
+    font-weight: 400;
+    font-size: 1.1rem;
+
+}
+
+.container h1 {
+    color: black;
+    font-weight: 200;
+    font-size: 4rem;
+    transform: skewX(-10deg);
+}
+
+.container a {
+    text-decoration: none;
+    color: black;
+    font-weight: 500;
+    font-size: 1.3rem;
+}
+
+.description {
+
+    margin: 3px 10px;
+    font-size: .8rem;
+}
+
+.menu_inline {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    margin: 0 0 40px 0;
+    animation: moveStart2 2s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-delay: .9s;
+    animation-fill-mode: backwards;
+}
+
+.menu_inline a {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: .8rem;
+    color: black;
+}
+
+.line {
+    background-color: black;
+    height: 1px;
+    width: 30%;
+    margin: 0 10px 0 0;
 }

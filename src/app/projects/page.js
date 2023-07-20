@@ -7,6 +7,8 @@ console.log(dataProjects);
 const ListProjects = () => {
   return (
     <section className={styles.container}>
+
+
       <div className={styles.title}>
         <div className={styles.menu_inline}>
           <div className={styles.line}></div>
@@ -22,6 +24,8 @@ const ListProjects = () => {
         </div>
         <h1>Projects</h1>
       </div>
+
+
       <main className={styles.main}>
         {dataProjects.map(({ id, image, title }) => (
           <Link key={id} href={`/projects/${id}`}>
@@ -37,6 +41,10 @@ const ListProjects = () => {
           </Link>
         ))}
       </main>
+
+
+
+      
     </section>
   );
 };
