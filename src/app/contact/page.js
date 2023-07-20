@@ -3,7 +3,6 @@ import styles from "./contact.module.css";
 import Link from "next/link";
 import ImageLayout from "@/components/Image";
 
-
 const Contact = () => {
   return (
     <section className={styles.container}>
@@ -29,7 +28,11 @@ const Contact = () => {
           <p className={styles.subtitle}>contacto@marvinberrio.com</p>
         </Link>
         <section className={styles.rrss}>
-          <Link href={"/"}>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://wa.me/34641732384"}
+          >
             <ImageLayout
               src={"/icons/whatsapp.svg"}
               alt={"whatsapp_logo"}
@@ -39,7 +42,11 @@ const Contact = () => {
             />
           </Link>
 
-          <Link href={"/"}>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://www.linkedin.com/in/marvinberrio/"}
+          >
             <ImageLayout
               src={"/icons/linkedin.svg"}
               alt={"linkedin_logo"}
@@ -48,8 +55,12 @@ const Contact = () => {
               className={styles.icon}
             />
           </Link>
-      
-          <Link href={"/"}>
+
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://www.youtube.com/@tevstudio"}
+          >
             <ImageLayout
               src={"/icons/youtube.svg"}
               alt={"youtube_logo"}
