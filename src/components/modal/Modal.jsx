@@ -37,14 +37,10 @@ const Modal = ({ children }) => {
   }, [onKeyDown]);
 
   return (
-    <div 
-    className={styles.overlay} 
-    ref={overlay} 
-    onClick={onClick}
-    >
-      <div className={styles.wrapper} ref={wrapper}>
+    <div className={styles.overlay_modal} ref={overlay} onClick={onClick}>
+      <div className={styles.wrapper_modal} ref={wrapper}>
         {children}
-        </div>
+      </div>
     </div>
   );
 };

@@ -1,4 +1,4 @@
-.container {
+.container_footer {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -6,9 +6,13 @@
     height: 5vh;
     background-color: rgb(237, 237, 237);
 
+    color: #777777;
+    background: linear-gradient(to bottom, #dcdcdc, #f0f0f0);
+
+
 }
 
-.container a {
+.container_footer a {
     color: rgb(239, 239, 239);
     text-decoration: none;
     font-weight: 700;

@@ -5,11 +5,11 @@
     height: auto;
     min-height: 85vh;
     margin: 0 auto;
-    background-color: #e5e5f72d;
+    background-color: #fafafa2d;
     opacity: 1;
     max-width: 1200px;
-    background-image: linear-gradient(135deg, #95959529 25%, transparent 25%),
-    linear-gradient(225deg, #95959523 25%, transparent 25%),
+    background-image: linear-gradient(135deg, #d6d6d629 25%, transparent 25%),
+    linear-gradient(225deg, #d0d0d023 25%, transparent 25%),
     linear-gradient(45deg, #95959502 25%, transparent 25%),
     linear-gradient(315deg, #9595950c 25%, #e5e5f708 25%);
     background-position: 5px 0,

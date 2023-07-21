@@ -5,11 +5,11 @@ import ImageLayout from "../Image";
 
 const Header = () => {
   return (
-    <nav className={styles.menu_container}>
+    <nav className={styles.menu_container_header}>
       <Link href={"/"}>
-        <h5 className={styles.logo}>m</h5>
+        <h5 className={styles.logo_header}>m</h5>
       </Link>
-      <section className={styles.container}>
+      <section className={styles.container_header}>
         <Link
           target="_blank"
           rel="noopener noreferrer"
@@ -18,9 +18,9 @@ const Header = () => {
           <ImageLayout
             src={"/icons/whatsapp.svg"}
             alt={"whatsapp_logo"}
-            width={27}
-            height={27}
-            className={styles.icon}
+            width={30}
+            height={30}
+            className={styles.icon_header}
           />
         </Link>
 
@@ -32,9 +32,9 @@ const Header = () => {
           <ImageLayout
             src={"/icons/github.svg"}
             alt={"github_logo"}
-            width={27}
-            height={27}
-            className={styles.icon}
+            width={30}
+            height={30}
+            className={styles.icon_header}
           />
         </Link>
         <Link
@@ -45,9 +45,9 @@ const Header = () => {
           <ImageLayout
             src={"/icons/youtube.svg"}
             alt={"youtube_logo"}
-            width={26}
-            height={26}
-            className={styles.icon}
+            width={29}
+            height={29}
+            className={styles.icon_header}
           />
         </Link>
       </section>

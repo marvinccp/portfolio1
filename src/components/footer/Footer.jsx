@@ -5,7 +5,7 @@ import Link from "next/link";
 
 const Footer = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container_footer}>
       <Link href={'/'}>
         {/* <ImageLayout
           src="/images/fav.png"

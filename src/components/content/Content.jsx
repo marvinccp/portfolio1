@@ -10,22 +10,22 @@ const Content = ({ data }) => {
   const router = useRouter();
 
   return (
-    <section className={styles.content}>
-      <div className={styles.back_container}>
+    <section className={styles.content_content}>
+      <div className={styles.back_container_content}>
         <span onClick={() => router.back()}></span>
         <h5 onClick={() => router.back()}>Back to projects</h5>
       </div>
-      <section className={styles.main}>
+      <section className={styles.main_content}>
         <header>
-          <ImageLayout className={styles.image} src={image} width={150} height={63} alt={title} />
-          <div className={styles.text_container}>
+          <ImageLayout className={styles.image_content} src={image} width={150} height={63} alt={title} />
+          <div className={styles.text_container_content}>
             <h3>{title}</h3>
             <p>{description}</p>
           </div>
         </header>
         <main>
           <h3>Tecnologías</h3>
-          <section className={styles.tec_container}>
+          <section className={styles.tec_container_content}>
             {tec.map(({ tec, image }) => (
               <ImageLayout
                 key={tec}
@@ -33,20 +33,20 @@ const Content = ({ data }) => {
                 width={40}
                 height={40}
                 alt={tec}
-                className={styles.tec}
+                className={styles.tec_content}
               />
             ))}
           </section>
-          <div className={styles.links}>
+          <div className={styles.links_content}>
             <h3>Links</h3>
-            <section className={styles.demo_links}>
+            <section className={styles.demo_links_content}>
               <Link target="_blank" rel="noopener noreferrer" href={github}>
                 <ImageLayout
                   src={"/icons/github.svg"}
                   alt={"github_logo"}
                   width={50}
                   height={50}
-                  className={styles.icon}
+                  className={styles.icon_content}
                 />
               </Link>
               <Link target="_blank" rel="noopener noreferrer" href={youtube}>
@@ -55,7 +55,7 @@ const Content = ({ data }) => {
                   alt={"youtube_logo"}
                   width={50}
                   height={50}
-                  className={styles.icon}
+                  className={styles.icon_content}
                 />
               </Link>
             </section>
@@ -67,7 +67,7 @@ const Content = ({ data }) => {
         </footer>
       </section>
       <Link target="_blank" rel="noopener noreferrer" href={link}>
-        <div className={styles.button_container}>
+        <div className={styles.button_container_content}>
           <button>
             Open Project
             <ImageLayout
@@ -75,7 +75,7 @@ const Content = ({ data }) => {
               alt={"youtube_logo"}
               width={25}
               height={25}
-              className={styles.icon}
+              className={styles.icon_content}
             />
           </button>
         </div>

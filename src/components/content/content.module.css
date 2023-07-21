@@ -1,4 +1,4 @@
-.content {
+.content_content {
     
     height: 90vh;
     width: 90%;
@@ -16,7 +16,7 @@
 
 }
 
-.main{
+.main_content {
     width: 90%;
     height: 70vh;
     margin: 0 auto;
@@ -26,7 +26,7 @@
 }
 
 /* back */
-.back_container {
+.back_container_content {
     display: flex;
     justify-content: space-between;
     padding: 0 5px;
@@ -34,7 +34,7 @@
     margin: 2px 0 20px 0;
 }
 
-.back_container span {
+.back_container_content span {
     background-image: url('/icons/back.png');
     background-position: center;
     background-repeat: no-repeat;
@@ -44,28 +44,28 @@
     cursor: pointer;
 }
 
-.back_container h5 {
+.back_container_content h5 {
     font-weight: 500;
 }
 
-.back_container h5:hover {
+.back_container_content h5:hover {
     cursor: pointer;
     color: rgb(104, 104, 104);
 }
 
 /* header */
-.content header {
+.content_content header {
 
     display: flex;
     justify-content: space-around;
     align-items: center;
     flex-direction: column
 }
-.image{
+.image_content {
     margin: 20px 0;
 }
 
-.text_container {
+.text_container_content {
 
     display: flex;
     flex-direction: column;
@@ -75,40 +75,40 @@
     gap: 10px;
 }
 
-.text_container p {
+.text_container_content p {
 
     font-size: 0.9rem;
 }
 
 /* main */
 
-.content main {
+.content_content main {
     margin: 25px 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.tec_container {
+.tec_container_content {
     display: flex;
     gap: 10px;
 }
 
-.links {
+.links_content {
     margin: 15px 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
 }
 
-.demo_links {
+.demo_links_content {
     display: flex;
     gap: 20px;
     justify-content: flex-start;
     align-items: center;
 }
 
-.content footer {
+.content_content footer {
     margin: 25px 0 0 0;
     display: flex;
     flex-direction: column;
@@ -116,11 +116,11 @@
     justify-content: center;
 }
 
-.content footer h5 {
+.content_content footer h5 {
     color: grey;
 }
 
-.content  button {
+.content_content button {
     width: 60%;
     height: 40px;
     margin: 10px;
@@ -135,38 +135,38 @@
     cursor: pointer;
 
 }
-.content  button:hover {
+.content_content button:hover {
     background-color: rgb(155, 155, 155)
 }
 
-.content a {
+.content_content a {
 
     text-decoration: none;
 }
 
-.button_container {
+.button_container_content {
     display: flex;
     justify-content: center;
     width: 100%;
 }
 
-.tec{
+.tec_content {
 
     border-radius: 50%;
 }
 @media(min-width:768px) {
-    .content {
+    .content_content {
         padding: 10px 20px;
     }
 
-   .button_container {
+   .button_container_content {
        margin:30px 0 0 0;
    }
-   .content button{
+   .content_content button {
     width: 50%
    };
 
-    .back_container {
+    .back_container_content {
         margin: 0 0 20px 0;
     }
 }

@@ -1,4 +1,4 @@
-.overlay {
+.overlay_modal {
 
     height: 100%;
     width: 100%;
@@ -9,7 +9,7 @@
 
 }
 
-.wrapper {
+.wrapper_modal {
 /* background-color: aqua; */
     position: absolute;
     top: 50%;
@@ -20,28 +20,28 @@
 }
 
 @media screen and (min-width: 640px) {
-    .wrapper {
+    .wrapper_modal {
         width: 70%;
-        /* Equivale a w-10/12 */
+        
     }
 }
 
 @media screen and (min-width: 768px) {
-    .wrapper {
+    .wrapper_modal {
         width: 60%;
-        /* Equivale a w-8/12 */
+       
     }
 }
 
 @media screen and (min-width: 1024px) {
-    .wrapper {
+    .wrapper_modal {
         width: 40%;
-        /* Equivale a lg:w-1/2 */
+        
     }
 }
 
 /* Estilos comunes a todos los tamaños de pantalla */
-.wrapper {
+.wrapper_modal {
     padding: 24px;
-    /* Equivale a p-6 */
+    
 }

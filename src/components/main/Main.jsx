@@ -43,28 +43,28 @@ const Main = () => {
   });
 
   return (
-    <section className={styles.container}>
+    <section className={styles.container_main}>
       <BackGround />
       <video src="/videos/fondo2short.mp4" loop autoPlay muted type="video/mp4">
         {" "}
       </video>
-      <main className={styles.main}>
-        <div className={styles.text}>
-          <h1 className={styles.hola}>Hola,</h1>
-          <h1 className={styles.soy}>Soy</h1>
-          <h1 className={styles.marvin}>Marvin</h1>
-          <div className={styles.profesion}>
+      <main className={styles.main_main}>
+        <div className={styles.text_main}>
+          <h1 className={styles.hola_main}>Hola,</h1>
+          <h1 className={styles.soy_main}>Soy</h1>
+          <h1 className={styles.marvin_main}>Marvin</h1>
+          <div className={styles.profesion_main}>
             <animated.h2 ref={listRef} {...bind()} style={animation}>
               Comunicador Audiovisual & Desarrollador Web
             </animated.h2>
           </div>
         </div>
-        <div className={styles.menu}>
+        <div className={styles.menu_main}>
           <Link href={"/about"}>
             <p>ABOUT</p>
           </Link>
           <Link href={"/projects"}>
-            <div className={styles.effect}>
+            <div className={styles.effect_main}>
               <p>PROJECTS</p>
             </div>
           </Link>
