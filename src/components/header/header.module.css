@@ -1,12 +1,15 @@
 .menu_container {
     height: 10vh;
     width: 100%;
-    background-color: rgb(234, 234, 234);
     display: flex;
     justify-content: center;
     align-items: center;
+    
+
+    background-color: #eeeeee;
 
 }
+
 .logo {
     color: rgb(239, 239, 239);
     text-decoration: none;

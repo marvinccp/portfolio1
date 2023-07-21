@@ -1,8 +1,9 @@
-.container {
+.container_projects {
     padding: 30px 35px;
     width: 100%;
     color: rgb(50, 50, 50);
     height: auto;
+    min-height: 85vh;
     margin: 0 auto;
     background-color: #e5e5f72d;
     opacity: 1;
@@ -20,21 +21,21 @@
 }
 
 
-.container h1 {
+.container_projects h1 {
     color: black;
     font-weight: 200;
     font-size: 4rem;
     transform: skewX(-12deg);
 }
-.container h2{
+.container_projects h2{
     transform: skewx(-12deg);
     color: black;
     font-weight: 200;
-    font-size: 3rem;
+    font-size: 2.2rem;
     margin: 60px 0 40px 0 ;
 }
 
-.card {
+.card_projects {
 
     width: 200px;
     height: 93px;
@@ -44,51 +45,48 @@
 ;
     
 }
-.container .title {
+.container_projects .title_projects {
 width: 90%;
 margin: 30px 0 30px 0;
 
 }
 
-.main {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-wrap: wrap;
-    width: 100%;
-    /* background-color: aqua; */
-    margin: 0 auto;
-gap: 20px;
-height: 60vh;
+.main_projects {
+display: grid;
+grid-template-columns: repeat(auto-fit, minmax(200px,1fr) );
+gap: 40px;
+padding: 10px 20px;
+margin: 20px auto;
+place-items: center;
 }
 
-.main a {
+.main_projects a {
     text-decoration: none;
     color: black;
 }
 
-.image {
+.image_projects {
     object-fit: cover;
     filter: grayscale(100%);
 }
-.image:hover {
+.image_projects:hover {
     filter: grayscale(0%);
 }
 
-.title {
+.title_projects {
     font-weight: 400;
     font-size: 1.1rem;
 
 }
 
 
-.description {
+.description_projects {
 
     margin: 3px 10px;
     font-size: .8rem;
 }
 
-.menu_inline {
+.menu_inline_projects {
     width: 100%;
     display: flex;
     align-items: center;
@@ -102,23 +100,17 @@ height: 60vh;
     animation-fill-mode: backwards;
 }
 
-.menu_inline a {
+.menu_inline_projects a {
     text-decoration: none;
     margin: 0 5px;
     font-size: .8rem;
     color: black;
 }
 
-.line {
+.line_projects {
     background-color: black;
     height: 1px;
     width: 30%;
     margin: 0 10px 0 0;
 }
 
-@media(min-width:768px){
-   
-    .main{
-        height: 30vh;
-    }
-}

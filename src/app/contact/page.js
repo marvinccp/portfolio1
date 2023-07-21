@@ -5,10 +5,10 @@ import ImageLayout from "@/components/Image";
 
 const Contact = () => {
   return (
-    <section className={styles.container}>
-      <div className={styles.title}>
-        <div className={styles.menu_inline}>
-          <div className={styles.line}></div>
+    <section className={styles.container_contact}>
+      <div className={styles.title_contact}>
+        <div className={styles.menu_inline_contact}>
+          <div className={styles.line_contact}></div>
           <Link href={"/"}>
             <p>home</p>
           </Link>
@@ -20,14 +20,14 @@ const Contact = () => {
           </Link>
         </div>
         <h1>Contact</h1>
-        <p className={styles.subtitle}>
+        <p className={styles.subtitle_contact}>
           Hola, dejame saber si puedo ayudarte en algo
         </p>
         <h3>Email:</h3>
         <Link href={"mailto:contacto@marvinberrio.com"}>
-          <p className={styles.subtitle}>contacto@marvinberrio.com</p>
+          <p className={styles.subtitle_contact}>contacto@marvinberrio.com</p>
         </Link>
-        <section className={styles.rrss}>
+        <section className={styles.rrss_contact}>
           <Link
             target="_blank"
             rel="noopener noreferrer"
@@ -38,7 +38,7 @@ const Contact = () => {
               alt={"whatsapp_logo"}
               width={42}
               height={42}
-              className={styles.icon}
+              className={styles.icon_contact}
             />
           </Link>
 
@@ -52,7 +52,7 @@ const Contact = () => {
               alt={"linkedin_logo"}
               width={42}
               height={42}
-              className={styles.icon}
+              className={styles.icon_contact}
             />
           </Link>
 
@@ -66,7 +66,7 @@ const Contact = () => {
               alt={"youtube_logo"}
               width={41}
               height={41}
-              className={styles.icon}
+              className={styles.icon_contact}
             />
           </Link>
         </section>

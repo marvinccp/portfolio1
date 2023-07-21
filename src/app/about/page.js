@@ -5,9 +5,9 @@ import Link from "next/link";
 
 const About = () => {
   return (
-    <main className={styles.container}>
-      <div className={styles.menu_inline}>
-        <div className={styles.line}></div>
+    <main className={styles.container_about}>
+      <div className={styles.menu_inline_about}>
+        <div className={styles.line_about}></div>
         <Link href={"/"}>
         <p>home</p>
         </Link>
@@ -18,8 +18,8 @@ const About = () => {
         <p>projects</p>
         </Link>
       </div>
-      <main className={styles.main}>
-        <header className={styles.header}>
+      <main className={styles.main_about}>
+        <header className={styles.header_about}>
           <h1>About</h1>
           <Link href={"/"}>
             <ImageLayout
@@ -32,8 +32,8 @@ const About = () => {
           </Link>
         </header>
 
-        <div className={styles.text}>
-          <div className={styles.subtitle}>
+        <div className={styles.text_about}>
+          <div className={styles.subtitle_about}>
             <p>
               Hola, soy Marvin Berrio, comunicador audiovisual y desarrollador
               web.{" "}
@@ -49,8 +49,8 @@ const About = () => {
             poco a tarves de el. gracias por estar aquí.
           </p>
         </div>
-        <div className={styles.text}>
-          <div className={styles.subtitle}>
+        <div className={styles.text_about}>
+          <div className={styles.subtitle_about}>
             <p>
               Skills{" "}
             </p>
@@ -59,8 +59,8 @@ const About = () => {
             HTML / CSS / JavaScript / React / Next.js / Node.js / Express / Python / Django / Docker / Postgres / Photoshop / Premiere
           </p>
         </div>
-        <div className={styles.text}>
-          <div className={styles.subtitle}>
+        <div className={styles.text_about}>
+          <div className={styles.subtitle_about}>
             <p>
               Experiencia{" "}
             </p>

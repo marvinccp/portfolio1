@@ -1,4 +1,4 @@
-.container {
+.container_about {
 
     height: auto;
     width: 100%;
@@ -12,9 +12,10 @@
 
     background-color: #e3e3e3;
     opacity: 1;
-    background: repeating-linear-gradient(-45deg, #fdfdfd, #fdfdfd 2px, #f3f3f3 2px, #ffffff 10px);  
+    background: repeating-linear-gradient(-45deg, #fdfdfd, #fdfdfd 2px, #f3f3f3 2px, #ffffff 10px);
 }
-.main {
+
+.main_about {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -32,21 +33,22 @@
     animation-delay: .7s;
     animation-fill-mode: backwards;
 }
-.header{
+
+.header_about {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.text {
+.text_about {
     width: 85%;
     text-align: left;
     color: rgb(143, 143, 143);
     font-weight: 400;
 }
 
-.subtitle{
+.subtitle_about {
     display: flex;
     margin: 0 0 30px 0;
     font-size: 1.1rem;
@@ -54,7 +56,7 @@
     transform: skewX(-10deg);
 }
 
-.container h1{
+.container_about h1 {
     color: black;
     font-weight: 200;
     font-size: 4rem;
@@ -63,29 +65,32 @@
 
 
 
-.container p{
+.container_about p {
 
     color: rgb(63, 63, 63);
 }
-.menu_inline{
+
+.menu_inline_about {
     width: 70%;
     display: flex;
     align-items: center;
     justify-content: flex-start;
     margin: 0 0 0 -30px;
-     animation: moveStart2 2s;
-     animation-play-state: running;
-     animation-iteration-count: 1;
-     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-     animation-delay: .9s;
-     animation-fill-mode: backwards;
+    animation: moveStart2 2s;
+    animation-play-state: running;
+    animation-iteration-count: 1;
+    animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
+    animation-delay: .9s;
+    animation-fill-mode: backwards;
 }
-.menu_inline a {
+
+.menu_inline_about a {
     text-decoration: none;
     margin: 0 5px;
     font-size: .8rem;
 }
-.line{
+
+.line_about {
     background-color: black;
     height: 1px;
     width: 20%;
@@ -94,23 +99,25 @@
 
 
 @media(min-width:768px) {
-   .container{
-    padding: 50px 60px;
-   }
-   .menu_inline {
-       width: 70%;
-       display: flex;
-       align-items: center;
-       justify-content: flex-start;
-       margin: 0 0 0 -30px;
-   }
-  
+    .container {
+        padding: 50px 60px;
+    }
+
+    .menu_inline {
+        width: 70%;
+        display: flex;
+        align-items: center;
+        justify-content: flex-start;
+        margin: 0 0 0 -30px;
+    }
+
 }
+
 @media(min-width:1000px) {
-     .container {
-         padding: 50px 20%;
-     }
-  
+    .container {
+        padding: 50px 20%;
+    }
+
 }
 
 .container video {
@@ -138,4 +145,3 @@
         /* transform: translateY(0%); */
     }
 }
-

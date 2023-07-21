@@ -1,4 +1,4 @@
-.container {
+.container_contact {
     padding: 30px 35px;
     width: 100%;
     color: rgb(50, 50, 50);
@@ -19,18 +19,18 @@
     background-repeat: repeat;
 }
 
-.container h1 {
+.container_contact h1 {
     transform: skewx(-12deg);
 }
 
 
-.container .title {
+.container_contact .title_contact {
     width: 90%;
     margin: 30px 0 30px 0;
 
 }
 
-.rrss {
+.rrss_contact {
     display: flex;
     width: 100%;
     align-items: center;
@@ -38,48 +38,48 @@
 }
 
 
-.icon {
+.icon_contact {
     filter: invert(77%) sepia(7%) saturate(6%) hue-rotate(314deg) brightness(87%) contrast(84%);
     margin: 6px;
 }
 
-.icon:hover {
+.icon_contact:hover {
     filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%);
 }
 
 
 
-.subtitle{
+.subtitle_contact {
     margin: 20px 0;
 }
 
-.title {
+.title_contact {
     font-weight: 400;
     font-size: 1.1rem;
 
 }
 
-.container h1 {
+.container_contact h1 {
     color: black;
     font-weight: 200;
     font-size: 4rem;
     transform: skewX(-10deg);
 }
 
-.container a {
+.container_contact a {
     text-decoration: none;
     color: black;
     font-weight: 500;
     font-size: 1.3rem;
 }
 
-.description {
+.description_contact {
 
     margin: 3px 10px;
     font-size: .8rem;
 }
 
-.menu_inline {
+.menu_inline_contact {
     width: 100%;
     display: flex;
     align-items: center;
@@ -93,14 +93,14 @@
     animation-fill-mode: backwards;
 }
 
-.menu_inline a {
+.menu_inline_contact a {
     text-decoration: none;
     margin: 0 5px;
     font-size: .8rem;
     color: black;
 }
 
-.line {
+.line_contact {
     background-color: black;
     height: 1px;
     width: 30%;
