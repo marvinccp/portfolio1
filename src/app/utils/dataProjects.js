@@ -116,4 +116,21 @@ export const dataProjects = [
     tags: ["React", "Javascript", "CSS", "Next", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
+  {
+    id: "8",
+    title: "Black Jack",
+    description: "Este es el prototipo traidicional del juego de Black Jack",
+    link: "https://black-jack21.vercel.app/",
+    github: "https://github.com/marvinccp/blackJack21",
+    image: "/projects_images/bjack.png",
+    tec: [
+  
+      { tec: "HTML5", image: "/icons/html.png" },
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "CSS", image: "/icons/css.png" },
+
+    ],
+    tags: ["Javascript", "CSS", "HTML5", "Web Developer"],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
 ];
