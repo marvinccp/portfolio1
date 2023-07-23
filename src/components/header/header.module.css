@@ -55,7 +55,7 @@
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .5s;
+    animation-delay: 1s;
     animation-fill-mode: backwards;
 }
 

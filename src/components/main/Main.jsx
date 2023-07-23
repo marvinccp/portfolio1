@@ -52,7 +52,7 @@ const Main = () => {
         <div className={styles.text_main}>
           <h1 className={styles.hola_main}>Hola,</h1>
           <h1 className={styles.soy_main}>Soy</h1>
-          <h1 className={styles.marvin_main}>Marvin</h1>
+          <h1 className={`${styles.marvin_main}`}>Marvin</h1>
           <div className={styles.profesion_main}>
             <animated.h2 ref={listRef} {...bind()} style={animation}>
               Comunicador Audiovisual & Desarrollador Web

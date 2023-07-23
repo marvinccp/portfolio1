@@ -26,12 +26,12 @@
     margin: 50px auto;
     color: aliceblue;
 
-    animation: moveStart2 2s;
+    /* animation: moveStart2 2s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .7s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; */
 }
 
 .header_about {
@@ -76,12 +76,14 @@
     align-items: center;
     justify-content: flex-start;
     margin: 0 0 0 -30px;
-    animation: moveStart2 2s;
+
+
+    /* animation: moveStart2 2s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .9s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; */
 }
 
 .menu_inline_about a {
