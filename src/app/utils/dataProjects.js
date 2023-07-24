@@ -98,39 +98,6 @@ export const dataProjects = [
     tags: ["Django", "Python", "Postgres", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
-  {
-    id: "7",
-    title: "Marvin Berrio",
-    description:
-      "Esta es la primera versión de mi portafolio. minimalista y casi en obra gris, sencillo",
-    link: "/",
-    github: "https://github.com/marvinccp/portfolio1",
-    image: "/projects_images/marvin.png",
-    tec: [
-      { tec: "Next Js", image: "/icons/next.png" },
-      { tec: "HTML5", image: "/icons/html.png" },
-      { tec: "Javascript", image: "/icons/js.png" },
-      { tec: "CSS", image: "/icons/css.png" },
-      { tec: "React Js", image: "/icons/react.png" },
-    ],
-    tags: ["React", "Javascript", "CSS", "Next", "Web Developer"],
-    youtube: "https://www.youtube.com/@tevstudio",
-  },
-  {
-    id: "8",
-    title: "Black Jack",
-    description: "Este es el prototipo traidicional del juego de Black Jack",
-    link: "https://black-jack21.vercel.app/",
-    github: "https://github.com/marvinccp/blackJack21",
-    image: "/projects_images/bjack.png",
-    tec: [
-  
-      { tec: "HTML5", image: "/icons/html.png" },
-      { tec: "Javascript", image: "/icons/js.png" },
-      { tec: "CSS", image: "/icons/css.png" },
-
-    ],
-    tags: ["Javascript", "CSS", "HTML5", "Web Developer"],
-    youtube: "https://www.youtube.com/@tevstudio",
-  },
+ 
+ 
 ];
