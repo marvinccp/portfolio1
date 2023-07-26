@@ -98,6 +98,4 @@ export const dataProjects = [
     tags: ["Django", "Python", "Postgres", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
- 
- 
 ];

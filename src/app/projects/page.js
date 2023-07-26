@@ -27,7 +27,7 @@ const ListProjects = () => {
       <main className={styles.main_projects}>
         {dataProjects.map(({ id, image, title }) => (
           <Link key={id} href={`/projects/${id}`}>
-            <div className={styles.card}>
+            <div className={styles.card_projects}>
               <ImageLayout
                 src={image}
                 alt={title}
