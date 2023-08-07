@@ -46,6 +46,7 @@
     width: 40%;
     margin: 0 auto;
     font-size: 1.2rem;
+    gap: 7px;
 
     animation: moveStart2 1s;
     animation-play-state: running;
@@ -59,16 +60,19 @@
     text-decoration: none;
     color: rgb(98, 98, 98);
     /* transition: color 10s ease; */
-    width: 180px;
+    width: 160px;
     transition: width .5s ease;
     font-weight: 600;
     font-size: 1.6rem;
+    text-indent: 10px;
+
 
 }
 
 .menu_main a:hover {
     color: rgb(23, 23, 23);
-    width: 150px;
+    width: 180px;
+    font-weight: 700;
 
 }
 
@@ -182,9 +186,9 @@
     /* background-color: aqua; */
     font-size: 1.1rem;
     line-height: 1.7rem;
-    color: rgb(119, 119, 119);
+    color: rgb(97, 97, 97);
 
-
+font-weight: 200;
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;

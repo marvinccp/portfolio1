@@ -13,6 +13,10 @@
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
 
 }
+.menu_container_header a {
+   text-decoration: none;
+
+}
 
 .logo_header {
     color: rgb(239, 239, 239);
