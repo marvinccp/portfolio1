@@ -14,7 +14,7 @@ const Footer = () => {
           alt="avatar_logo_main"
           className={styles.avatar}
         /> */}
-        <h5>m</h5>
+        <h5 className={styles.logo_footer}>m</h5>
       </Link>
     </section>
   );
