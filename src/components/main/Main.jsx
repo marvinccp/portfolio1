@@ -9,7 +9,7 @@ const Main = () => {
 
   return (
     <section className={styles.container_main}>
-      <video src="/videos/fondo2short.mp4" loop autoPlay muted type="video/mp4">
+      <video src="/videos/video-web-edit2.mp4" loop autoPlay muted type="video/mp4">
         {" "}
       </video>
       <main className={styles.main_main}>
@@ -23,6 +23,7 @@ const Main = () => {
             </h2>
           </div>
         </div>
+        
         <div className={styles.menu_main}>
           <Link href={"/about"}>
             <p>ABOUT</p>
