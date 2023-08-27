@@ -17,10 +17,10 @@
     background: rgb(239, 239, 239);
     font-weight: 700;
     color: rgb(0, 0, 0);
-    width: 30px;
-    height: 30px;
+    width: 26px;
+    height: 26px;
     text-align: center;
-    font-size: 1rem;
+    font-size: .9rem;
 
     display: flex;
     justify-content: center;
