@@ -98,4 +98,22 @@ export const dataProjects = [
     tags: ["Django", "Python", "Postgres", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
+  {
+    id: "7",
+    title: "What's My Food?",
+    description:
+      "Consulta información nutricional de tus alimentos favoritos con ayuda de IA",
+    link: "https://whatsmyfood.vercel.app/",
+    github: "https://github.com/marvinccp/whatsmyfood",
+    image: "/projects_images/wmf.png",
+    tec: [
+      { tec: "Next", image: "/icons/next.png" },
+      { tec: "React", image: "/icons/react.png" },
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "Css", image: "/icons/css.png" },
+      { tec: "OpenAI", image: "/icons/oai.png" },
+    ],
+    tags: ["OpenAI", "ChatGPT", "Next", "Javascript", "CSS", "Web Developer"],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
 ];
