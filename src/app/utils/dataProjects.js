@@ -116,4 +116,19 @@ export const dataProjects = [
     tags: ["OpenAI", "ChatGPT", "Next", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
+  {
+    id: "8",
+    title: "Tev News",
+    description: "Prototipo de una revista digital",
+    link: "https://tev-news.vercel.app/",
+    github: "https://github.com/marvinccp/TevNews",
+    image: "/projects_images/tevnews.png",
+    tec: [
+      { tec: "Angular", image: "/icons/angular.png" },
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "Css", image: "/icons/css.png" },
+    ],
+    tags: ["Angular", "Javascript", "CSS", "Web Developer"],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
 ];
