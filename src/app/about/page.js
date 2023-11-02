@@ -54,7 +54,7 @@ const About = () => {
           </div>
           <p>
             HTML / CSS / JavaScript / React / Next.js / Node.js / Express /
-            Python / Django / Docker / Postgres / Photoshop / Premiere
+            Python / Django / Docker / Postgres / Photoshop / Premiere / Angular
           </p>
         </div>
         <div className={styles.text_about}>
