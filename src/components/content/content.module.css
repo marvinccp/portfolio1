@@ -1,5 +1,7 @@
 .content_content {
-    
+
+    display: flex;
+    flex-direction: column;
     height: 90vh;
     width: 90%;
     background: linear-gradient(rgb(234, 234, 234), rgb(200, 200, 200), rgba(231, 231, 231, 0.885));
@@ -62,7 +64,7 @@
     flex-direction: column
 }
 .image_content {
-    margin: 20px 0;
+    margin: 0 0;
 }
 
 .text_container_content {
@@ -83,7 +85,7 @@
 /* main */
 
 .content_content main {
-    margin: 25px 0 0 0;
+    margin: 15px 0 0 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
