@@ -44,8 +44,8 @@ const Content = ({ data }) => {
                 <ImageLayout
                   src={"/icons/github.svg"}
                   alt={"github_logo"}
-                  width={50}
-                  height={50}
+                  width={40}
+                  height={40}
                   className={styles.icon_content}
                 />
               </Link>
@@ -53,8 +53,8 @@ const Content = ({ data }) => {
                 <ImageLayout
                   src={"/icons/youtube.svg"}
                   alt={"youtube_logo"}
-                  width={50}
-                  height={50}
+                  width={40}
+                  height={40}
                   className={styles.icon_content}
                 />
               </Link>
