@@ -1,0 +1,15 @@
+.menu_container{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+}
+.menu_container p{
+    font-size: 1.2rem;
+}
+.menu_container p:hover{
+    font-size: 1.2rem;
+    font-weight: 500;
+}

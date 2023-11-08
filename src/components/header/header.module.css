@@ -38,6 +38,20 @@
 
 }
 
+.logo_header:hover {
+    animation: rotate-vertical-center 1.5s
+}
+
+@keyframes rotate-vertical-center {
+    0% {
+        transform: rotateY(0)
+    }
+
+    100% {
+        transform: rotateY(360deg)
+    }
+}
+
 /* @keyframes logoInfinite {
     100% {
         transform: rotateY(360deg);
@@ -71,6 +85,7 @@
     margin: 6px;
 }
 .icon_header:hover {
+    animation: rotate-vertical-center 1.5s;
     filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%);
 }
 
