@@ -13,13 +13,17 @@ const Main = () => {
       >
         {" "}
       </video>
-      <main className={styles.main_main}>
-        <div className={styles.text_main}>
+      <main className={`${styles.main_main}`}>
+        <div className={`${styles.text_main}`}>
           <h1 className={styles.hola_main}>Hola,</h1>
           <h1 className={styles.soy_main}>Soy</h1>
-          <h1 className={`${styles.marvin_main}`}>Marvin</h1>
-          <div className={styles.profesion_main}>
-            <h2>Comunicador Audiovisual & Desarrollador Web</h2>
+          <h1 className={`${styles.marvin_main} ${styles.color_animate}`}>Marvin</h1>
+          <div
+            className={`${styles.profesion_main} ${styles.effect_container}`}
+          >
+            <h2 className={styles.h2_text}>
+              Comunicador Audiovisual & Desarrollador Web
+            </h2>
           </div>
         </div>
 

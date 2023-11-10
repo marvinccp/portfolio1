@@ -1,6 +1,7 @@
 .container_about {
 
     height: auto;
+    padding: 50px 0;
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -9,7 +10,6 @@
     align-items: center;
     color: rgb(32, 32, 32);
     margin: 0 auto;
-    padding: 50px 0;
 
     background-color: #e3e3e3;
     opacity: 1;

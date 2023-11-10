@@ -18,6 +18,7 @@
     /* height: 50%;
     width: 90%; */
     color: aliceblue;
+    max-width: 82%;
 }
 
 
@@ -29,8 +30,8 @@
     width: 95%;
     margin: 0 auto;
     line-height: 4.5rem;
-        cursor: pointer;
-
+    cursor: pointer;
+    line-height: 4rem;
 }
 
 .text_main h1 {
@@ -54,7 +55,7 @@
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: 1.2s;
     animation-fill-mode: backwards;
-    
+
 }
 
 
@@ -75,9 +76,16 @@
 }
 
 .menu_main a:hover {
-    color: rgb(23, 23, 23);
+    /* color: rgb(23, 23, 23); */
     width: 180px;
     font-weight: 700;
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size:800%;
+    animation: color 12s linear infinite;
+
 
 }
 
@@ -100,6 +108,7 @@
 }  */
 
 
+
 @media(min-width:768px) {
 
     .main_main {
@@ -117,11 +126,11 @@
     .menu_main {
         align-items: center;
         font-size: 1.4rem;
-            border-left: 2px solid rgba(14, 14, 14, 0.355);
+        border-left: 2px solid rgba(14, 14, 14, 0.355);
 
     }
 
-    
+
 }
 
 @media(min-width:1000px) {
@@ -137,11 +146,13 @@
         font-size: 1.7rem;
     }
 
-   
+
 
 }
 
 /* effectos */
+
+
 
 .hola_main {
     /* font-size: 7rem; */
@@ -152,13 +163,14 @@
     animation-delay: .4s;
     animation-fill-mode: backwards;
     color: rgb(60, 60, 60);
-    text-shadow: 1px 1px rgb(154, 154, 154);
+    /* text-shadow: 1px 1px rgb(154, 154, 154); */
+    margin-bottom: 15px;
 
 }
 
 .soy_main {
     color: rgb(60, 60, 60);
-    text-shadow: 1px 1px rgb(154, 154, 154);
+    /* text-shadow: 1px 1px rgb(154, 154, 154); */
 
     animation: moveStart2 1s;
     animation-play-state: running;
@@ -166,20 +178,68 @@
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .6s;
     animation-fill-mode: backwards;
+    padding-bottom: 11px;
+  
 
+      
 }
 
 .marvin_main {
-
     font-size: 6rem;
-    animation: moveStart2 1s;
+    animation: moveStart2 1s, color 12s linear infinite;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .8s;
     animation-fill-mode: backwards;
-    color: rgb(0, 0, 0);
+        padding-top: 3px;
+
+
+
+    /* color: rgb(0, 0, 0); */
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646);
+    background-size:800%;
+
+    
+
 }
+
+.h2_text{
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size:800%;
+    animation: color 12s linear infinite;
+}
+
+/* .color_animate {
+    animation-delay: 3s;
+    animation: color 3s linear infinite;
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to left, #8400ff, #7B68EE, #632e75, #4a1860b2, #4d0d82e8);
+
+} */
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+} 
+@keyframes color_soy {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+} 
 
 .profesion_main {
     display: flex;
@@ -192,8 +252,9 @@
     font-size: 1.1rem;
     line-height: 1.7rem;
     color: rgb(97, 97, 97);
+    position: relative;
 
-font-weight: 200;
+    font-weight: 200;
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
@@ -201,8 +262,9 @@ font-weight: 200;
     animation-delay: 1s;
     animation-fill-mode: backwards;
 
-
 }
+
+
 
 @keyframes moveStart2 {
     0% {

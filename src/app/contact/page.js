@@ -5,77 +5,63 @@ import ImageLayout from "@/components/Image";
 
 const Contact = () => {
   return (
-    <section className={styles.container_contact}>
-      <div className={styles.title_contact}>
-        <div className={styles.menu_inline_contact}>
-          <div className={styles.line_contact}></div>
-          <Link href={"/"}>
-            <p>home</p>
+    <main className={styles.container_about}>
+      <div className={styles.menu_inline_about}>
+        <div className={styles.line_about}></div>
+        <Link href={"/"}>
+          <p>home</p>
+        </Link>
+        <Link href={"/about"}>
+          <p>about</p>
+        </Link>
+        <Link href={"/projects"}>
+          <p>projects</p>
+        </Link>
+      </div>
+      <main className={styles.main_about}>
+        <header className={styles.header_about}>
+          <h1>Contact</h1>
+        </header>
+
+        <div className={styles.text_about}>
+          <div className={styles.subtitle_about}>
+            <p>
+              Hola, será para mí un placer hacer parte de tu proyecto o
+              responder tus dudas. Puedes contactarme a través de los siguientes
+              canales.{" "}
+            </p>
+          </div>
+        </div>
+        <div className={styles.contact_icons}>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"https://wa.me/34641732384"}
+          >
+            <ImageLayout
+              src={"/icons/whatsapp.svg"}
+              alt={"whatsapp_logo"}
+              width={80}
+              height={80}
+              className={styles.icon_header}
+            />
           </Link>
-          <Link href={"/projects"}>
-            <p>projects</p>
-          </Link>
-          <Link href={"/about"}>
-            <p>about</p>
+          <Link
+            target="_blank"
+            rel="noopener noreferrer"
+            href={"mailto:marvinccp@gmail.com"}
+          >
+            <ImageLayout
+              src={"/icons/email.png"}
+              alt={"email_logo"}
+              width={100}
+              height={100}
+              className={styles.icon_header}
+            />
           </Link>
         </div>
-
-        <h1>Contact</h1>
-        <p className={styles.subtitle_contact_a}>
-          Hola, dejame saber si puedo ayudarte en algo
-        </p>
-        <main className={styles.main}>
-          <Link href={"mailto:contacto@marvinberrio.com"}>
-            <h3>Email:</h3>
-            <p className={styles.subtitle_contact}>contacto@marvinberrio.com</p>
-          </Link>
-
-          <section className={styles.rrss_contact}>
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://wa.me/34641732384"}
-            >
-              <ImageLayout
-                src={"/icons/whatsapp.svg"}
-                alt={"whatsapp_logo"}
-                width={42}
-                height={42}
-                className={styles.icon_contact}
-              />
-            </Link>
-
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://www.linkedin.com/in/marvinberrio/"}
-            >
-              <ImageLayout
-                src={"/icons/linkedin.svg"}
-                alt={"linkedin_logo"}
-                width={42}
-                height={42}
-                className={styles.icon_contact}
-              />
-            </Link>
-
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://www.youtube.com/@tevstudio"}
-            >
-              <ImageLayout
-                src={"/icons/youtube.svg"}
-                alt={"youtube_logo"}
-                width={41}
-                height={41}
-                className={styles.icon_contact}
-              />
-            </Link>
-          </section>
-        </main>
-      </div>
-    </section>
+      </main>
+    </main>
   );
 };
 
