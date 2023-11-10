@@ -1,4 +1,4 @@
-.container_about {
+.container_contact {
 
     min-height: 85vh;
     height: auto;
@@ -17,7 +17,7 @@
     background: repeating-linear-gradient(-45deg, #fdfdfd, #fdfdfd 2px, #f3f3f3 2px, #ffffff 10px);
 }
 
-.main_about {
+.main_contact {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -39,20 +39,20 @@
     margin: -30px 0;
 }
 
-.header_about {
+.header_contact {
     display: flex;
     gap: 20px;
     justify-content: center;
     align-items: center;
 }
 
-.text_about {
+.text_contact {
     width: 85%;
     text-align: left;
     color: rgb(143, 143, 143);
 }
 
-.subtitle_about {
+.subtitle_contact {
     display: flex;
     margin: 0 0 30px 0;
     font-size: 1.1rem;
@@ -60,7 +60,7 @@
     /* transform: skewX(-10deg); */
 }
 
-.container_about h1 {
+.container_contact h1 {
     color: black;
     font-weight: 200;
     font-size: 4rem;
@@ -73,13 +73,13 @@
     align-items: center;
 }
 
-.container_about p {
+.main_contact p {
 
     color: rgb(63, 63, 63);
     line-height: 1.5rem;
 }
 
-.menu_inline_about {
+.menu_inline_contact {
     width: 70%;
     display: flex;
     align-items: center;
@@ -95,17 +95,46 @@
     animation-fill-mode: backwards; */
 }
 
-.menu_inline_about a {
+.menu_inline_contact a {
+   text-decoration: none;
+   margin: 0 5px;
+   font-size: 1.2rem;
+   color: black;
+   font-weight: 600;
+}
+.menu_inline_contact a:hover {
     text-decoration: none;
     margin: 0 5px;
-    font-size: .8rem;
+    font-size: 1.2rem;
+    font-weight: 600;
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size: 800%;
+    animation: color 12s linear infinite;
 }
 
-.line_about {
-    background-color: black;
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
+}
+
+.line_contact {
     height: 1px;
     width: 20%;
     margin: 0 10px 0 0;
+
+    background-color: transparent;
+    background-clip: content-box;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size: 800%;
+    animation: color 12s linear infinite;
 }
 
 

@@ -66,7 +66,7 @@
 
 
 
-.container_about p {
+.main_about p {
 
     color: rgb(63, 63, 63);
     line-height: 1.5rem;
@@ -91,14 +91,44 @@
 .menu_inline_about a {
     text-decoration: none;
     margin: 0 5px;
-    font-size: .8rem;
+    font-size: 1.2rem;
+    color: rgb(45, 45, 45);
+    font-weight: 600;
+}
+.menu_inline_about a:hover {
+    text-decoration: none;
+    margin: 0 5px;
+    font-size: 1.2rem;
+    /* color: rgb(161, 4, 4); */
+    font-weight: 600;
+
+    color: transparent;
+    background-clip: text;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size:800%;
+    animation: color 12s linear infinite;
+}
+@keyframes color {
+    from {
+        background-position: 0% 50%;
+    }
+
+    to {
+        background-position: 100% 50%;
+    }
 }
 
+
 .line_about {
-    background-color: black;
     height: 1px;
     width: 20%;
     margin: 0 10px 0 0;
+
+    background-color: transparent;
+    background-clip: content-box;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size:800%;
+    animation: color 12s linear infinite;
 }
 
 

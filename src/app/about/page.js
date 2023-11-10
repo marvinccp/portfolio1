@@ -9,13 +9,13 @@ const About = () => {
       <div className={styles.menu_inline_about}>
         <div className={styles.line_about}></div>
         <Link href={"/"}>
-          <p>home</p>
+          <p className={styles.item}>home</p>
         </Link>
         <Link href={"/contact"}>
-          <p>contact</p>
+          <p className={styles.item}>contact</p>
         </Link>
         <Link href={"/projects"}>
-          <p>projects</p>
+          <p className={styles.item}>projects</p>
         </Link>
       </div>
       <main className={styles.main_about}>

@@ -1,3 +1,4 @@
+import PagesMenu from "../pages_menu/PagesMenu";
 import styles from "./main.module.css";
 import Link from "next/link";
 

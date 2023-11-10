@@ -5,9 +5,9 @@ import ImageLayout from "@/components/Image";
 
 const Contact = () => {
   return (
-    <main className={styles.container_about}>
-      <div className={styles.menu_inline_about}>
-        <div className={styles.line_about}></div>
+    <main className={styles.container_contact}>
+      <div className={styles.menu_inline_contact}>
+        <div className={styles.line_contact}></div>
         <Link href={"/"}>
           <p>home</p>
         </Link>
@@ -18,13 +18,13 @@ const Contact = () => {
           <p>projects</p>
         </Link>
       </div>
-      <main className={styles.main_about}>
-        <header className={styles.header_about}>
+      <main className={styles.main_contact}>
+        <header className={styles.header_contact}>
           <h1>Contact</h1>
         </header>
 
-        <div className={styles.text_about}>
-          <div className={styles.subtitle_about}>
+        <div className={styles.text_contact}>
+          <div className={styles.subtitle_contact}>
             <p>
               Hola, será para mí un placer hacer parte de tu proyecto o
               responder tus dudas. Puedes contactarme a través de los siguientes

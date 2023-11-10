@@ -1,6 +1,7 @@
 import Link from 'next/link';
 import React from 'react'
 import styles from  './PagesMenu.module.css'
+
 const PagesMenu = () => {
   return (
     <nav className={styles.menu_container}>
