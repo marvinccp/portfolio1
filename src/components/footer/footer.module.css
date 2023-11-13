@@ -8,7 +8,7 @@
 
       background: transparent;
       background-clip: content-box;
-      background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-image: linear-gradient(to right, #404040, #303030, #464646, #404040, #353535, #464646, #404040, #353434, #464646, #404040, rgb(75, 75, 75), #464646, #404040, #2a2a2a, #464646);
       background-size:800%;
       animation: color 12s linear infinite;
 
