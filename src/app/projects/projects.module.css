@@ -26,6 +26,7 @@
     font-weight: 200;
     font-size: 4rem;
     transform: skewX(-12deg);
+    margin: 40px 0 0 0;text-align: center;
 }
 .container_projects h2{
     transform: skewx(-12deg);
@@ -94,29 +95,9 @@ place-items: center;
     display: flex;
     align-items: center;
     justify-content: flex-start;
-    margin: -5px 0 45px 16px;
 }
 
-.menu_inline_projects a {
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: 1.2rem;
-    color: black;
-    font-weight: 600;
-}
 
-.menu_inline_projects a:hover {
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: 1.2rem;
-    font-weight: 600;
-
-    color: transparent;
-    background-clip: text;
-    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
-    background-size: 800%;
-    animation: color 12s linear infinite;
-}
 
 @keyframes color {
     from {

@@ -3,6 +3,7 @@ import styles from "./projects.module.css";
 import ImageLayout from "../../components/Image";
 import Link from "next/link";
 import { dataProjects } from "../utils/dataProjects";
+import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 console.log(dataProjects);
 const ListProjects = () => {
@@ -10,16 +11,7 @@ const ListProjects = () => {
     <section className={styles.container_projects}>
       <div className={styles.title_projects}>
         <div className={styles.menu_inline_projects}>
-          <div className={styles.line_projects}></div>
-          <Link href={"/"}>
-            <p>home</p>
-          </Link>
-          <Link href={"/contact"}>
-            <p>contact</p>
-          </Link>
-          <Link href={"/about"}>
-            <p>about</p>
-          </Link>
+          <PagesMenu item1={"home"} item2={"about"} item3={"contact"} />
         </div>
         <h1>Projects</h1>
       </div>
@@ -39,7 +31,6 @@ const ListProjects = () => {
           </Link>
         ))}
       </main>
-
     </section>
   );
 };

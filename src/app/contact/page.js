@@ -2,21 +2,13 @@ import React from "react";
 import styles from "./contact.module.css";
 import Link from "next/link";
 import ImageLayout from "@/components/Image";
+import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 const Contact = () => {
   return (
     <main className={styles.container_contact}>
       <div className={styles.menu_inline_contact}>
-        <div className={styles.line_contact}></div>
-        <Link href={"/"}>
-          <p>home</p>
-        </Link>
-        <Link href={"/about"}>
-          <p>about</p>
-        </Link>
-        <Link href={"/projects"}>
-          <p>projects</p>
-        </Link>
+        <PagesMenu item1={"home"} item2={"projects"} item3={"about"} />
       </div>
       <main className={styles.main_contact}>
         <header className={styles.header_contact}>

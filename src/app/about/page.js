@@ -2,21 +2,17 @@ import React from "react";
 import styles from "./about.module.css";
 import ImageLayout from "@/components/Image";
 import Link from "next/link";
+import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 const About = () => {
   return (
     <main className={styles.container_about}>
       <div className={styles.menu_inline_about}>
-        <div className={styles.line_about}></div>
-        <Link href={"/"}>
-          <p className={styles.item}>home</p>
-        </Link>
-        <Link href={"/contact"}>
-          <p className={styles.item}>contact</p>
-        </Link>
-        <Link href={"/projects"}>
-          <p className={styles.item}>projects</p>
-        </Link>
+        <PagesMenu 
+        item1={'home'} 
+        item2={'projects'}
+        item3={'contact'}
+        />
       </div>
       <main className={styles.main_about}>
         <header className={styles.header_about}>

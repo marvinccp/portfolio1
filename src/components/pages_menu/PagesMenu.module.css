@@ -3,36 +3,47 @@
     width: 100%;
     max-width: 1200px;
     align-items: center;
-    justify-content: center;
-    gap: 40px;
+    justify-content: space-around;
+
 }
-.menu_container p{
-    font-size: 1.2rem;
+.menu_container ul{
+    display: flex;
+    width: 100%;
+    max-width: 1200px;
+    align-items: center;
+    justify-content:flex-start;
+    list-style: none;
+    line-height: 2rem;
+    gap: 20px;
 }
-.menu_container p:hover{
-    font-size: 1.2rem;
-    font-weight: 500;
+
+.menu_container ul::before{
+    content: '';
+    width: 5rem;
+    height: 0.25rem;
+
+    background: transparent;
+    background-clip: content-box;
+    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
+    background-size:500%;
+    animation: color 12s linear infinite;
+
 }
+
 .menu_container a {
     text-decoration: none;
-    margin: 0 5px;
-    font-size: 1.2rem;
+    font-size: 1rem;
     color: black;
-    font-weight: 600;
 }
 .menu_container a:hover {
-    text-decoration: none;
-    margin: 0 5px;
-    font-size: 1.6rem;
-    color: black;
-    font-weight: 600;
-
     color: transparent;
     background-clip: text;
     background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
-    background-size:800%;
+    background-size:500%;
     animation: color 12s linear infinite;
 }
+
+
 @keyframes color {
     from {
         background-position: 0% 50%;
