@@ -1,7 +1,7 @@
 .container_about {
 
     height: auto;
-    padding: 50px 0;
+    padding: 15px 0;
     width: 100%;
     max-width: 1200px;
     display: flex;
@@ -24,8 +24,9 @@
     gap: 60px;
     height: 60%;
     width: 90%;
-    margin: 50px auto;
+    margin: 0 auto;
     color: aliceblue;
+    padding-bottom: 30px;
 
     /* animation: moveStart2 2s;
     animation-play-state: running;
@@ -43,7 +44,7 @@
 }
 
 .text_about {
-    width: 85%;
+    width: 90%;
     text-align: left;
     color: rgb(143, 143, 143);
     font-weight: 400;
@@ -60,7 +61,7 @@
 .container_about h1 {
     color: black;
     font-weight: 200;
-    font-size: 4rem;
+    font-size: 3rem;
     transform: skewX(-10deg);
 }
 
@@ -72,19 +73,21 @@
     line-height: 1.5rem;
 }
 
-.menu_inline_about {
-    width: 70%;
+
+.menu_container {
+
     display: flex;
-    align-items: center;
-    justify-content: center;
+    max-width: 75%;
+    margin: 30px auto;
+}
 
 
-    /* animation: moveStart2 2s;
-    animation-play-state: running;
-    animation-iteration-count: 1;
-    animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
-    animation-delay: .9s;
-    animation-fill-mode: backwards; */
+@media(width >=1280px) {
+    .menu_container {
+
+        max-width: 70%;
+    }
+
 }
 
 @keyframes color {
@@ -97,41 +100,6 @@
     }
 }
 
-
-.line_about {
-    height: 1px;
-    width: 20%;
-    margin: 0 10px 0 0;
-
-    background-color: transparent;
-    background-clip: content-box;
-    background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
-    background-size:800%;
-    animation: color 12s linear infinite;
-}
-
-
-@media(min-width:768px) {
-    .container {
-        padding: 50px 60px;
-    }
-
-    .menu_inline {
-        width: 70%;
-        display: flex;
-        align-items: center;
-        justify-content: flex-start;
-        margin: 0 0 0 -30px;
-    }
-
-}
-
-@media(min-width:1000px) {
-    .container {
-        padding: 50px 20%;
-    }
-
-}
 
 .container video {
     width: 100%;
