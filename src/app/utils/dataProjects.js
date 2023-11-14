@@ -18,22 +18,22 @@ export const dataProjects = [
       "https://www.youtube.com/watch?v=sh-P1FFd7oA&list=PL0_LqhiRYs8Eau8DxJLy4xF1LzEoK3twE",
   },
 
-  {
-    id: "2",
-    title: "YouTube Hub",
-    description:
-      "Este proyecto utiliza la API de Youtube para obtener información  mis listas  de reproducción favoritas.",
-    link: "https://youtube-hub.vercel.app/",
-    github: "https://github.com/marvinccp/youtubeHUB",
-    image: "/projects_images/youtube_hub.png",
-    tec: [
-      { tec: "Javascript", image: "/icons/js.png" },
-      { tec: "CSS", image: "/icons/css.png" },
-      { tec: "Next Js", image: "/icons/next.png" },
-    ],
-    tags: ["Next", "React", "Javascript", "CSS", "Web Developer"],
-    youtube: "https://www.youtube.com/@tevstudio",
-  },
+  // {
+  //   id: "2",
+  //   title: "YouTube Hub",
+  //   description:
+  //     "Este proyecto utiliza la API de Youtube para obtener información  mis listas  de reproducción favoritas.",
+  //   link: "https://youtube-hub.vercel.app/",
+  //   github: "https://github.com/marvinccp/youtubeHUB",
+  //   image: "/projects_images/youtube_hub.png",
+  //   tec: [
+  //     { tec: "Javascript", image: "/icons/js.png" },
+  //     { tec: "CSS", image: "/icons/css.png" },
+  //     { tec: "Next Js", image: "/icons/next.png" },
+  //   ],
+  //   tags: ["Next", "React", "Javascript", "CSS", "Web Developer"],
+  //   youtube: "https://www.youtube.com/@tevstudio",
+  // },
   {
     id: "3",
     title: "21 Black Jack",
