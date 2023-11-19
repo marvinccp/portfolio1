@@ -40,9 +40,9 @@
     border-radius: 50%;
 }
 
-.logo_footer:hover {
+/* .logo_footer:hover {
     animation: rotate-vertical-center 1.5s
-}
+} */
 
 @keyframes rotate-vertical-center {
     0% {

@@ -1,9 +1,11 @@
+"use client";
 import React from "react";
 import styles from "./projects.module.css";
 import ImageLayout from "../../components/Image";
 import Link from "next/link";
 import { dataProjects } from "../utils/dataProjects";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
+import { motion } from "framer-motion";
 
 console.log(dataProjects);
 const ListProjects = () => {
@@ -20,7 +22,11 @@ const ListProjects = () => {
         <main className={styles.main_projects}>
           {dataProjects.map(({ id, image, title }) => (
             <Link key={id} href={`/projects/${id}`}>
-              <div className={styles.card_projects}>
+              <motion.div
+                whileHover={{ scale: 1.05 }}
+                transition={{ type: "spring", stiffness: 500, damping: 20 }}
+                className={styles.card_projects}
+              >
                 <ImageLayout
                   src={image}
                   alt={title}
@@ -28,7 +34,7 @@ const ListProjects = () => {
                   height={93}
                   className={styles.image_projects}
                 />
-              </div>
+              </motion.div>
             </Link>
           ))}
         </main>

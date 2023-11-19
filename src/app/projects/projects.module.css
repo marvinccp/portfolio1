@@ -47,8 +47,9 @@ place-content: center;}
 
 
 background-color: rgb(243, 243, 243);
-}
+border: transparent solid 1px;
 
+}
 
 
 .title_projects {

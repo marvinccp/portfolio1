@@ -1,7 +1,9 @@
+"use client";
 import React from "react";
 import styles from "./contact.module.css";
 import Link from "next/link";
 import ImageLayout from "@/components/Image";
+import { motion } from "framer-motion";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 const Contact = () => {
@@ -27,32 +29,43 @@ const Contact = () => {
             </div>
           </div>
           <div className={styles.contact_icons}>
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"https://wa.me/34641732384"}
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 500, damping: 20 }}
             >
-              <ImageLayout
-                src={"/icons/whatsapp.svg"}
-                alt={"whatsapp_logo"}
-                width={80}
-                height={80}
-                className={styles.icon_header}
-              />
-            </Link>
-            <Link
-              target="_blank"
-              rel="noopener noreferrer"
-              href={"mailto:marvinccp@gmail.com"}
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"https://wa.me/34641732384"}
+              >
+                <ImageLayout
+                  src={"/icons/whatsapp.svg"}
+                  alt={"whatsapp_logo"}
+                  width={80}
+                  height={80}
+                  className={styles.icon_header}
+                />
+              </Link>
+            </motion.div>
+
+            <motion.div
+              whileHover={{ scale: 1.1 }}
+              transition={{ type: "spring", stiffness: 500, damping: 20 }}
             >
-              <ImageLayout
-                src={"/icons/email.png"}
-                alt={"email_logo"}
-                width={100}
-                height={100}
-                className={styles.icon_header}
-              />
-            </Link>
+              <Link
+                target="_blank"
+                rel="noopener noreferrer"
+                href={"mailto:marvinccp@gmail.com"}
+              >
+                <ImageLayout
+                  src={"/icons/email.png"}
+                  alt={"email_logo"}
+                  width={100}
+                  height={100}
+                  className={styles.icon_header}
+                />
+              </Link>
+            </motion.div>
           </div>
         </main>
       </main>

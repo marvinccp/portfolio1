@@ -53,7 +53,7 @@
 }
 
 .logo_header:hover {
-    animation: rotate-vertical-center 1.5s 
+    /* animation: rotate-vertical-center 1.5s  */
 }
 
 
@@ -90,12 +90,12 @@
     padding:  0 20px 0 0;
 
 
-    animation: moveStart2 1s;
+    /* animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: 1s;
-    animation-fill-mode: backwards;
+    animation-fill-mode: backwards; */
 }
 
 
@@ -104,8 +104,10 @@
     margin: 6px;
 }
 .icon_header:hover {
-    animation: rotate-vertical-center 1.5s;
-    filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%);
+    /* animation: rotate-vertical-center 1.5s; */
+    /* filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%); */
+        filter: invert(50%) sepia(7%) saturate(0%) hue-rotate(54deg) brightness(87%) contrast(84%);
+
 }
 
 

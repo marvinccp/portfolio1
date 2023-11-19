@@ -1,12 +1,13 @@
+'use client'
 import React from "react";
 import styles from "./footer.module.css";
-import ImageLayout from "../Image";
+import { motion } from 'framer-motion'
 import Link from "next/link";
 
 const Footer = () => {
   return (
     <section className={styles.container_footer}>
-      <Link href={'/'}>
+      <Link href={"/"}>
         {/* <ImageLayout
           src="/images/fav.png"
           width={40}
@@ -14,7 +15,13 @@ const Footer = () => {
           alt="avatar_logo_main"
           className={styles.avatar}
         /> */}
-        <h5 className={styles.logo_footer}>m</h5>
+        <motion.h5
+          whileHover={{ scale: 1.1 }}
+          transition={{ type: "spring", stiffness: 500, damping: 20 }}
+          className={styles.logo_footer}
+        >
+          m
+        </motion.h5>
       </Link>
     </section>
   );
