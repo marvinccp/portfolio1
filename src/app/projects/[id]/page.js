@@ -1,7 +1,5 @@
 import { dataProjects } from "../../utils/dataProjects.js";
 import styles from "./content_projects.module.css";
-import { motion } from "framer-motion";
-console.log(dataProjects);
 
 const PageProject = ({ params }) => {
   console.log(params);
