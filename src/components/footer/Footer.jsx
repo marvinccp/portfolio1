@@ -4,6 +4,7 @@ import styles from "./footer.module.css";
 import { motion } from 'framer-motion'
 import Link from "next/link";
 
+
 const Footer = () => {
   return (
     <section className={styles.container_footer}>

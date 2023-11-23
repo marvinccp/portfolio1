@@ -5,7 +5,7 @@ import React from "react";
 import styles from "./header.module.css";
 import ImageLayout from "../Image";
 import { motion } from "framer-motion";
-import { ThemeSwitcher } from "../darkmode/ThemeSwitcher";
+import { ThemeSwitcher } from '../darkmode/ThemeSwitcher';
 
 const Header = () => {
   return (
@@ -76,7 +76,7 @@ const Header = () => {
               />
             </Link>
           </motion.div>
-            <ThemeSwitcher className={styles.switcher} />
+        <ThemeSwitcher />
         </section>
       </nav>
   );

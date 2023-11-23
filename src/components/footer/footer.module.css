@@ -8,9 +8,9 @@
 
       background: transparent;
       background-clip: content-box;
-    background-image: linear-gradient(to right, #404040, #303030, #464646, #404040, #353535, #464646, #404040, #353434, #464646, #404040, rgb(75, 75, 75), #464646, #404040, #2a2a2a, #464646);
       background-size:800%;
       animation: color 12s linear infinite;
+      background: var(--container-light-color);
 
     color: #777777;
 }
@@ -26,7 +26,7 @@
 }
 
 .logo_footer {
-    background: rgb(239, 239, 239);
+    background: rgb(255, 255, 255);
     font-weight: 700;
     color: rgb(39, 39, 39);
     width: 26px;
