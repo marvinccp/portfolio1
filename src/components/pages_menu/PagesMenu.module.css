@@ -1,10 +1,10 @@
 .menu_container{
     display: flex;
     width: 100%;
-    max-width: 1200px;
     align-items: center;
     justify-content: space-around;
-
+    background: var(--back-about);
+    margin: 0 auto;
 }
 .menu_container ul{
     display: flex;
@@ -32,8 +32,8 @@
 
 .menu_container a {
     text-decoration: none;
-    font-size: 0.8rem;
-    color: black;
+    font-size: 0.9rem;
+    color: var(--title-ppal-color);
 }
 .menu_container a:hover {
     color: transparent;

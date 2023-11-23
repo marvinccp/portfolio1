@@ -4,7 +4,7 @@ import styles from "./PagesMenu.module.css";
 
 const PagesMenu = ({ item1, item2, item3}) => {
   return (
-    <nav className={styles.menu_container}>
+    <div className={styles.menu_container}>
       <ul>
         <Link className={styles.link} href={"/"}>
           <li className={styles.item}>{item1}</li>
@@ -16,7 +16,7 @@ const PagesMenu = ({ item1, item2, item3}) => {
           <li>{item3}</li>
         </Link>
       </ul>
-    </nav>
+    </div>
   );
 };
 

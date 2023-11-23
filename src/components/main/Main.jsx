@@ -5,6 +5,7 @@ const Main = () => {
   return (
     <section className={styles.container_main}>
       <video
+      className={styles.video}
         src="/videos/background_clouds.mp4"
         loop
         autoPlay

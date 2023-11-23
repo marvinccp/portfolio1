@@ -8,7 +8,7 @@ import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 const Contact = () => {
   return (
-    <>
+    <section className={styles.contact_contain}>
       <div className={styles.menu_container}>
         <PagesMenu item1={"home"} item2={"projects"} item3={"about"} />
       </div>
@@ -69,7 +69,7 @@ const Contact = () => {
           </div>
         </main>
       </main>
-    </>
+    </section>
   );
 };
 

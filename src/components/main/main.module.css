@@ -1,7 +1,7 @@
 .container_main {
     height: 85vh;
     width: 100%;
-    /* background-color: rgba(241, 241, 241, 0); */
+    background:var(--back-video-home);
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -64,7 +64,7 @@
 
 .menu_main a {
     text-decoration: none;
-    color: rgb(98, 98, 98);
+    color: var(--title-a-color);
     /* transition: color 10s ease; */
     width: 160px;
     transition: width .5s ease;
@@ -126,7 +126,7 @@
     .menu_main {
         align-items: center;
         font-size: 1.4rem;
-        border-left: 2px solid rgba(14, 14, 14, 0.355);
+        border-left: var(--main-menu-border-left);
 
     }
 
@@ -162,16 +162,14 @@
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .4s;
     animation-fill-mode: backwards;
-    color: rgb(60, 60, 60);
+    color: var(--title-ppal-color);
     /* text-shadow: 1px 1px rgb(154, 154, 154); */
     margin-bottom: 15px;
 
 }
 
 .soy_main {
-    color: rgb(60, 60, 60);
-    /* text-shadow: 1px 1px rgb(154, 154, 154); */
-
+    color: var(--title-ppal-color);
     animation: moveStart2 1s;
     animation-play-state: running;
     animation-iteration-count: 1;
@@ -192,7 +190,7 @@
     animation-timing-function: cubic-bezier(0.2, 0.6, 0.2, 1);
     animation-delay: .8s;
     animation-fill-mode: backwards;
-        padding-top: 3px;
+    padding-top: 3px;
 
 
 
@@ -202,7 +200,7 @@
 
 
     /* color: rgb(226, 226, 226); */
-    color: transparent;
+    color: var(--text-effect-color);
     background-clip: text;
     background-image: linear-gradient(to right, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646, #404040, #0b0b0b, #464646);
     background-size:800%;
@@ -212,7 +210,7 @@
 }
 
 .h2_text{
-    color: transparent;
+    color: var(--text-effect-color-h2);
     background-clip: text;
     background-image: linear-gradient(to right, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71, #7B68EE, #3498db, #2ecc71);
     background-size:800%;

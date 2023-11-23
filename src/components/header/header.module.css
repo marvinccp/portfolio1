@@ -7,14 +7,16 @@
     /* color: #777777;
     background: linear-gradient(to bottom, #dcdcdc, #f0f0f0); */
 
-    background: linear-gradient(45deg, #f5f5f5, #dcdcdc);
+    background: var(--container-light-color);
     box-shadow: 0 5px 15px rgba(255, 255, 255, 0.5);
 
 }
+
 .menu_container_header a {
    text-decoration: none;
 
 }
+
 
 .logo_header {
     color: rgb(239, 239, 239);
@@ -51,13 +53,6 @@
         background-position: 100% 50%;
     }
 }
-
-.logo_header:hover {
-    /* animation: rotate-vertical-center 1.5s  */
-}
-
-
-
 
 
 
@@ -100,14 +95,8 @@
 
 
 .icon_header {
-    filter: invert(77%) sepia(7%) saturate(6%) hue-rotate(314deg) brightness(87%) contrast(84%);
+    filter: var(--filter-icon-header);
     margin: 6px;
-}
-.icon_header:hover {
-    /* animation: rotate-vertical-center 1.5s; */
-    /* filter: invert(0%) sepia(89%) saturate(7500%) hue-rotate(64deg) brightness(90%) contrast(110%); */
-        filter: invert(50%) sepia(7%) saturate(0%) hue-rotate(54deg) brightness(87%) contrast(84%);
-
 }
 
 

@@ -6,7 +6,7 @@ import PagesMenu from "@/components/pages_menu/PagesMenu";
 
 const About = () => {
   return (
-    <>
+    <section className={styles.container}>
       <div className={styles.menu_container}>
         <PagesMenu item1={"home"} item2={"projects"} item3={"contact"} />
       </div>
@@ -67,7 +67,7 @@ const About = () => {
           </div>
         </main>
       </main>
-    </>
+    </section>
   );
 };
 
