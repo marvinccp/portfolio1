@@ -6,7 +6,7 @@ import PagesMenu from "@/components/pages_menu/PagesMenu";
 'use client'
 const About = () => {
   return (
-    <section className={styles.container}>
+    <section className={styles.container_a}>
       <div className={styles.menu_container}>
         <PagesMenu item1={"home"} item2={"projects"} item3={"contact"} />
       </div>
