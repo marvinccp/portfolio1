@@ -1,9 +1,8 @@
 import { useEffect, useState } from "react";
 
 export const useTheme = () => {
-
-  const storageTheme = localStorage.getItem('theme')
-  const [theme, setTheme] = useState(storageTheme || 'ligth');
+  const storageTheme = localStorage.getItem("theme");
+  const [theme, setTheme] = useState(storageTheme || "ligth");
 
   const light = () => {
     setTheme("light");
@@ -14,8 +13,7 @@ export const useTheme = () => {
   };
 
   useEffect(() => {
-
-    localStorage.setItem('theme', theme)
+    localStorage.setItem("theme", theme);
     document.body.setAttribute("data-theme", theme);
   }, [theme]);
 

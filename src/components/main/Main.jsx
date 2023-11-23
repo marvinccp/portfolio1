@@ -1,6 +1,6 @@
 import styles from "./main.module.css";
 import Link from "next/link";
-
+'use client'
 const Main = () => {
   return (
     <section className={styles.container_main}>

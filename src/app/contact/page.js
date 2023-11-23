@@ -5,7 +5,7 @@ import Link from "next/link";
 import ImageLayout from "@/components/Image";
 import { motion } from "framer-motion";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
-
+'use client'
 const Contact = () => {
   return (
     <section className={styles.contact_contain}>
