@@ -1,9 +1,9 @@
+'use client'
 import React from "react";
 import styles from "./about.module.css";
 import ImageLayout from "@/components/Image";
 import Link from "next/link";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
-'use client'
 const About = () => {
   return (
     <section className={styles.container_a}>

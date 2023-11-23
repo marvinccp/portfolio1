@@ -6,7 +6,7 @@ import Link from "next/link";
 import { dataProjects } from "../utils/dataProjects";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
 import { motion } from "framer-motion";
-'use client'
+
 console.log(dataProjects);
 const ListProjects = () => {
   return (
