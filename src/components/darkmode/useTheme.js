@@ -2,7 +2,7 @@ import { useEffect, useState } from "react";
 
 export const useTheme = () => {
   const initialState =
-    typeof window !== "undefined" ? ocalStorage.getItem("theme") : "";
+    typeof window !== "undefined" ? localStorage.getItem("theme") : "";
 
   const [theme, setTheme] = useState(initialState);
 
