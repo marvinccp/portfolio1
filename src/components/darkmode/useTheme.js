@@ -1,8 +1,13 @@
 import { useEffect, useState } from "react";
 
 export const useTheme = () => {
-  const storageTheme = localStorage.getItem("theme");
-  const [theme, setTheme] = useState(storageTheme || "ligth");
+  
+  const initialState =
+    typeof window !== "undefined"
+      ? window.localStorage.getItem("theme")
+      : false;
+
+  const [theme, setTheme] = useState(initialState || "ligth");
 
   const light = () => {
     setTheme("light");
