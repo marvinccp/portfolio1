@@ -2,9 +2,9 @@ import { useEffect, useState } from "react";
 
 export const useTheme = () => {
   const initialState =
-    typeof window !== "undefined" ? localStorage.getItem("theme") : "";
+    typeof window !== "undefined" ? localStorage.getItem("theme") : "light";
 
-  const [theme, setTheme] = useState(initialState);
+  const [theme, setTheme] = useState(initialState || "light");
 
   const light = () => {
     setTheme("light");

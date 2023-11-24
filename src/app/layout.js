@@ -2,6 +2,7 @@ import Header from "@/components/header/Header";
 import "./globals.css";
 import { Inter, Lato, Montserrat } from "next/font/google";
 import Footer from "@/components/footer/Footer";
+import { Providers } from "@/components/darkmode/Provider";
 const inter = Inter({
   subsets: ["latin"],
   variable: "--font-inter",
@@ -29,17 +30,19 @@ export const metadata = {
 export default function RootLayout(props) {
   console.log(props);
   return (
-      <html
-        lang="en"
-        className={`${inter.className} ${lato.className} ${montserrat.className} 
+    <html
+      lang="en"
+      className={`${inter.className} ${lato.className} ${montserrat.className} 
       `}
-      >
-        <body>
+    >
+      <body>
+        <Providers>
           {props.modal}
           <Header />
           {props.children}
           <Footer />
-        </body>
-      </html>
+        </Providers>
+      </body>
+    </html>
   );
 }
