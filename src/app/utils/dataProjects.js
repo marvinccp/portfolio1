@@ -131,4 +131,21 @@ export const dataProjects = [
     tags: ["Angular", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
   },
+  {
+    id: "9",
+    title: "Projects Hub",
+    description: "Plataforma para el seguimiento de proyectos (construcción, limpieza etc)",
+    link: "https://projects-hub-three.vercel.app//",
+    github: "https://github.com/marvinccp/projects-hub",
+    image: '/projects_images/projectsHub25.png',
+    tec: [
+      { tec: "Javascript", image: "/icons/js.png" },
+      { tec: "Css", image: "/icons/css.png" },
+      { tec: "Nest", image: "/icons/nest.png" },
+      { tec: "Ts", image: "/icons/ts.png" },
+      { tec: "Node", image: "/icons/node.png" },
+    ],
+    tags: ["nest", "Javascript", "CSS", "Typescript", 'Backend', 'frontend'],
+    youtube: "https://www.youtube.com/@tevstudio",
+  },
 ];
