@@ -35,6 +35,7 @@
     justify-content: center;
     align-items: center;
     border-radius: 5px;
+    position: relative;
 
 
     background-color:var(--back-cards);
@@ -91,6 +92,22 @@
     display: flex;
     align-items: center;
     justify-content: flex-start;
+}
+
+.tagNew{
+    background: rgba(112, 216, 112, 0.902);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 50px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    border-radius: 5px;
 }
 
 

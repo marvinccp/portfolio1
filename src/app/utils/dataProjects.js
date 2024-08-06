@@ -35,7 +35,7 @@ export const dataProjects = [
   //   youtube: "https://www.youtube.com/@tevstudio",
   // },
   {
-    id: "3",
+    id: "2",
     title: "21 Black Jack",
     description:
       "Este juego es una adaptación del tipico black jack. he simplicado la interface",
@@ -51,7 +51,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "4",
+    id: "3",
     title: "Fast Dogs",
     description:
       "Este proyecto es un demo básico de un sitio web de un restaurante de comidas rapidas.",
@@ -67,7 +67,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "5",
+    id: "4",
     title: "SOUL",
     description:
       "Este prototipo se convertirá en una tienda online de ropa. este es uno de nuestro proyectos en familia a mediano plazo",
@@ -83,7 +83,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "6",
+    id: "5",
     title: "Mercadoña",
     description:
       "Este proyecto es un demo de un programa de un supermercado para control de inventario",
@@ -99,7 +99,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "7",
+    id: "6",
     title: "What's My Food?",
     description:
       "Consulta información nutricional de tus alimentos favoritos con ayuda de IA",
@@ -117,7 +117,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "8",
+    id: "7",
     title: "Tev News",
     description: "Prototipo de una revista digital",
     link: "https://tev-news.vercel.app/",
@@ -132,7 +132,7 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
   {
-    id: "9",
+    id: "8",
     title: "Projects Hub",
     description: "Plataforma para el seguimiento de proyectos (construcción, limpieza etc)",
     link: "https://projects-hub-three.vercel.app//",
@@ -149,3 +149,4 @@ export const dataProjects = [
     youtube: "https://www.youtube.com/@tevstudio",
   },
 ];
+

@@ -7,7 +7,7 @@ import { dataProjects } from "../utils/dataProjects";
 import PagesMenu from "@/components/pages_menu/PagesMenu";
 import { motion } from "framer-motion";
 
-console.log(dataProjects);
+console.log(dataProjects[7]);
 const ListProjects = () => {
   return (
     <>
@@ -27,6 +27,14 @@ const ListProjects = () => {
                 transition={{ type: "spring", stiffness: 500, damping: 20 }}
                 className={styles.card_projects}
               >
+                {id == dataProjects.length ? (
+                  <div className={styles.tagNew}>
+                    <p>New</p>
+                  </div>
+                ) : (
+                  ""
+                )}
+
                 <ImageLayout
                   src={image}
                   alt={title}
