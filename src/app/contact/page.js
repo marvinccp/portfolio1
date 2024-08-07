@@ -35,7 +35,7 @@ const Contact = () => {
               <Link
                 target="_blank"
                 rel="noopener noreferrer"
-                href={"https://wa.me/34641732384"}
+                href={"https://wa.me/34640852250"}
               >
                 <ImageLayout
                   src={"/icons/whatsapp.svg"}
