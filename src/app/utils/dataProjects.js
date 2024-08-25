@@ -4,9 +4,9 @@ export const dataProjects = [
     title: "Master Question",
     description:
       "MQ es el prototipo de un juego sencillo de preguntas y respuestas tipo test",
-    link: "https://masterqgame.vercel.app/?vercelToolbarCode=q5J1LprEQR4zen1",
+    link: "https://www.masterquestion.es",
     github: "https://github.com/marvinccp/masterqgame",
-    image: "/projects_images/master_question.png",
+    image: "/projects_images/master_question1.png",
     tec: [
       { tec: "Javascript", image: "/icons/js.png" },
       { tec: "CSS", image: "/icons/css.png" },
@@ -14,8 +14,9 @@ export const dataProjects = [
       { tec: "Next Js", image: "/icons/next.png" },
     ],
     tags: ["React", "Javascript", "CSS", "Game", "Node", "Web Developer"],
-    youtube:
-      "https://www.youtube.com/watch?v=sh-P1FFd7oA&list=PL0_LqhiRYs8Eau8DxJLy4xF1LzEoK3twE",
+    youtube: "https://www.youtube.com/watch?v=sh-P1FFd7oA&list=PL0_LqhiRYs8Eau8DxJLy4xF1LzEoK3twE",
+    update:true
+
   },
 
   // {
@@ -49,6 +50,8 @@ export const dataProjects = [
     ],
     tags: ["React", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
+  
   },
   {
     id: "3",
@@ -65,6 +68,7 @@ export const dataProjects = [
     ],
     tags: ["React", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
   {
     id: "4",
@@ -81,6 +85,7 @@ export const dataProjects = [
     ],
     tags: ["Javascript", "HTML5", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
   {
     id: "5",
@@ -97,6 +102,7 @@ export const dataProjects = [
     ],
     tags: ["Django", "Python", "Postgres", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
   {
     id: "6",
@@ -115,6 +121,7 @@ export const dataProjects = [
     ],
     tags: ["OpenAI", "ChatGPT", "Next", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
   {
     id: "7",
@@ -130,6 +137,7 @@ export const dataProjects = [
     ],
     tags: ["Angular", "Javascript", "CSS", "Web Developer"],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
   {
     id: "8",
@@ -147,6 +155,7 @@ export const dataProjects = [
     ],
     tags: ["nest", "Javascript", "CSS", "Typescript", 'Backend', 'frontend'],
     youtube: "https://www.youtube.com/@tevstudio",
+    update:false
   },
 ];
 

@@ -20,7 +20,7 @@ const ListProjects = () => {
         </div>
 
         <main className={styles.main_projects}>
-          {dataProjects.map(({ id, image, title }) => (
+          {dataProjects.map(({ id, image, title, update }) => (
             <Link key={id} href={`/projects/${id}`}>
               <motion.div
                 whileHover={{ scale: 1.05 }}
@@ -31,8 +31,10 @@ const ListProjects = () => {
                   <div className={styles.tagNew}>
                     <p>New</p>
                   </div>
-                ) : (
-                  ""
+                ) : update && (
+                  <div className={styles.tagUpdate}>
+                    <p>Update</p>
+                  </div>
                 )}
 
                 <ImageLayout

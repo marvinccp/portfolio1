@@ -109,7 +109,21 @@
     font-weight: 500;
     border-radius: 5px;
 }
-
+.tagUpdate{
+    background:rgb(250, 139, 95);
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 80px;
+    height: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    font-size: .9rem;
+    font-weight: 500;
+    border-radius: 5px;
+}
 
 
 @keyframes color {
